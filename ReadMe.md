@@ -1,5 +1,19 @@
 # 💫 About Me:
-🔭 I'm currently working on expanding the IDAI Universe ecosystem and building interactive web platforms.<br><br>👯 I'm looking to collaborate on open-source AI tools, web canvas architectures, and innovative web apps.<br><br>🤝 I'm looking for help with mastering advanced data structures and algorithms to climb the Codeforces ranks.<br><br>🌱 I'm currently learning deep C++ competitive programming logic and advanced problem-solving for NHSPC.<br><br>💬 Ask me about my web development projects, competitive programming journey, or my dreams for MIT and NASA JPL.<br><br>⚡ Fun fact: I am 13 years old, a Karate practitioner, and placed 57th in the national merit list for Cadet College!
+🔭 I'm currently working on expanding the IDAI Universe ecosystem and building interactive web platforms.<br><br>
+
+💻 I am currently building Olympiad Edge 🚀, an open-source student platform designed to train aspiring competitive programmers in elite algorithmic problem-solving.<br><br>
+
+🏆 As part of this ecosystem of Olympiad Edge, I engineered PrimeFactor.app 🧮, a high-velocity, zero-server-overhead mathematical wing built to test cognitive speed using advanced deterministic algorithms.<br><br>
+
+👯 I'm looking to collaborate on open-source AI tools, web canvas architectures, and innovative web apps.<br><br>
+
+🤝 I'm looking for help with mastering advanced data structures and algorithms to climb the Codeforces ranks.<br><br>
+
+🌱 I'm currently learning deep C++ competitive programming logic and advanced problem-solving for NHSPC.<br><br>
+
+💬 Ask me about my web development projects, competitive programming journey, or my dreams for MIT and NASA JPL.<br><br>
+
+✨ Fun fact: I am 13 years old, a Karate practitioner, and placed 57th in the national merit list for Cadet College!
 
 
 ## 🌐 Socials:
