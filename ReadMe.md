@@ -9,7 +9,7 @@
 
 🤝 I'm looking for help with mastering advanced data structures and algorithms to climb the Codeforces ranks.<br><br>
 
-🌱 I'm currently learning deep C++ competitive programming logic and advanced problem-solving for NHSPC.<br><br>
+🌱 I'm currently learning deep C++ competitive programming logic and advanced problem-solving for NHSPC and IOI.<br><br>
 
 💬 Ask me about my web development projects, competitive programming journey, or my dreams for MIT and NASA JPL.<br><br>
 
