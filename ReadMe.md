@@ -312,7 +312,57 @@ Deployment platform for modern web projects.
 Optimized for Next.js and serverless hosting.  
 
 ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=flat-square&logo=adobe%20illustrator&logoColor=white)  
-Vector graphics tool for
+Vector graphics tool for logos and illustrations.  
+Industry standard for design professionals.  
+
+![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=flat-square&logo=adobe%20photoshop&logoColor=white)  
+Image editing and digital art creation.  
+Used for photo manipulation and creative design.  
+
+![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat-square&logo=Canva&logoColor=white)  
+Quick design tool with templates.  
+Accessible for non‑designers and content creators.  
+
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat-square&logo=figma&logoColor=white)  
+Collaborative UI/UX design platform.  
+Supports prototyping and team workflows.  
+
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat-square&logo=pandas&logoColor=white)  
+Python library for data manipulation and analysis.  
+Essential for data science workflows.  
+
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat-square&logo=git&logoColor=white)  
+Version control system for tracking code changes.  
+Enables collaboration and branching.  
+
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=flat-square&logo=githubactions&logoColor=white)  
+CI/CD automation workflows on GitHub.  
+Helps streamline testing and deployment.  
+
+![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=flat-square&logo=selenium&logoColor=white)  
+Framework for browser automation and testing.  
+Used in QA and scraping tasks.  
+
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat-square&logo=github&logoColor=white)  
+Code hosting and collaboration platform.  
+Supports open‑source and enterprise projects.  
+
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat-square&logo=numpy&logoColor=white)  
+Numerical computing library for Python.  
+Handles arrays, matrices, and scientific calculations.  
+
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat-square&logo=Matplotlib&logoColor=black)  
+Visualization library for Python.  
+Creates charts, plots, and graphs.  
+
+![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=flat-square&logo=firefox&logoColor=#FF7139)  
+Personal showcase of projects and achievements.  
+Highlights skills, creations, and career journey.  
+
+![Prettier](https://img.shields.io/badge/prettier-%23F7B93E.svg?style=flat-square&logo=prettier&logoColor=black)  
+Code formatter for consistent style.  
+Improves readability and collaboration.  
+
 
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.shion.dev/api?username=rayaantasnim&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
