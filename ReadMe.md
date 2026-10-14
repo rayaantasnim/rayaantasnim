@@ -14,7 +14,7 @@
 💬 Ask me about my web development projects, competitive programming journey, or my dreams for MIT and NASA JPL.<br><br>
 
 ✨ Fun fact: I am 13 years old, a Karate practitioner, and placed 57th in the national merit list for Cadet College!
-
+<br><br>
 # 🛠 My Skills
 
 <section align="center">
