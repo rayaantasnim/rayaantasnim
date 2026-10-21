@@ -414,12 +414,10 @@ Serves as a professional identity hub.
 
 ### 📊 GitHub Statistics
 
-### 📊 GitHub Statistics
-
 [![Profile Views](https://komarev.com/ghpvc/?username=rayaantasnim&style=for-the-badge&color=0e75b6&label=VISITORS)](https://visitcount.itsvg.in)
 [![Followers](https://img.shields.io/github/followers/rayaantasnim?style=for-the-badge&color=brightgreen&label=FOLLOWERS)](https://github.com/rayaantasnim?tab=followers)
 [![Stars](https://img.shields.io/github/stars/rayaantasnim?style=for-the-badge&color=yellow&label=STARS)](https://github.com/rayaantasnim?tab=repositories)
-[![Repos](https://img.shields.io/github/repos/rayaantasnim?style=for-the-badge&color=blue&label=REPOSITORIES)](https://github.com/rayaantasnim?tab=repositories)
+[![Repos](https://img.shields.io/badge/REPOSITORIES-101-blue?style=for-the-badge)](https://github.com/rayaantasnim?tab=repositories)
 
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
