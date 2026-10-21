@@ -1,10 +1,6 @@
 # ⚡ Rayaan Tasnim
 
-![Founder Badge](https://img.shields.io/badge/Founder-IDAI%20Universe-blue?style=for-the-badge&logo=rocket)  
-![Olympiad Edge Badge](https://img.shields.io/badge/Olympiad%20Edge-High--Velocity%20Contest%20Layer-purple?style=for-the-badge&logo=fastapi)
-![Full-Stack Badge](https://img.shields.io/badge/Full--Stack-Prodigy-green?style=for-the-badge&logo=javascript)  
-![Math Badge](https://img.shields.io/badge/Math-Enthusiast-orange?style=for-the-badge&logo=python)  
-![Competitive Badge](https://img.shields.io/badge/Competitive-Programmer-red?style=for-the-badge&logo=codeforces)  
+![Founder Badge](https://img.shields.io/badge/Founder-IDAI%20Universe-blue?style=for-the-badge&logo=rocket) ![Olympiad Edge Badge](https://img.shields.io/badge/Olympiad%20Edge-High--Velocity%20Contest%20Layer-purple?style=for-the-badge&logo=fastapi) ![Full-Stack Badge](https://img.shields.io/badge/Full--Stack-Prodigy-green?style=for-the-badge&logo=javascript) ![Math Badge](https://img.shields.io/badge/Math-Enthusiast-orange?style=for-the-badge&logo=python) ![Competitive Badge](https://img.shields.io/badge/Competitive-Programmer-red?style=for-the-badge&logo=codeforces)
 
 ---
 
