@@ -169,9 +169,9 @@
 ## 🌐 Socials:
 (rayaantasnim@gmail.com) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rayaantasnim@gmail.com) 
 
-# 🚀 Tech Stack Showcase
+<br><br>
 
----
+# 🚀 Tech Stack Showcase
 
 ## 🎨 Design & UI/UX
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)  
