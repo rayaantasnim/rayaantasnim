@@ -169,187 +169,239 @@
 ## 🌐 Socials:
 (rayaantasnim@gmail.com) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rayaantasnim@gmail.com) 
 
- ### 🎨 Design & UI/UX
+# 🚀 Tech Stack Showcase
 
-![Adobe Illustrator](https://shields.io)  
-Vector graphics tool for logos and illustrations.  
-Industry standard for design professionals.  
+---
 
-![Adobe Photoshop](https://shields.io)  
-Image editing and digital art creation.  
-Used for photo manipulation and creative design.  
-
-![Canva](https://shields.io)  
-Quick design tool with templates.  
-Accessible for non‑designers and content creators.  
-
-![Figma](https://shields.io)  
+## 🎨 Design & UI/UX
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)  
 Collaborative UI/UX design platform.  
-Supports prototyping and team workflows.  
+Supports prototyping, wireframing, and team workflows.  
+Widely used for modern product design.  
 
-### 💻 Frontend Development
+![Adobe Photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)  
+Industry‑leading tool for image editing.  
+Used for photo manipulation, digital art, and creative design.  
+Essential for professional designers.  
 
-![Angular](https://shields.io)  
-Component‑based framework for building scalable web applications.  
-Provides a robust suite of tools for enterprise‑grade frontend development.  
+![Adobe Illustrator](https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=white)  
+Vector graphics editor for logos and illustrations.  
+Provides precision tools for scalable artwork.  
+Standard in branding and graphic design.  
 
-![Bootstrap](https://shields.io)  
-Popular CSS framework with prebuilt components.  
-Speeds up responsive web design.  
+![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)  
+Accessible design tool with templates.  
+Great for quick social media graphics.  
+Popular among non‑designers and content creators.  
 
-![CSS3](https://shields.io)  
-Defines the look and feel of web pages with responsive layouts, animations, and styling.  
-Essential for modern UI/UX design.  
+---
 
-![Green Sock](https://shields.io)  
-Animation platform for high‑performance motion design.  
-Used in interactive websites and creative projects.  
-
-![HTML5](https://shields.io)  
-Provides semantic structure for web pages.  
-Supports multimedia, forms, and accessibility features.  
-
-![JavaScript](https://shields.io)  
-Core scripting language of the web, enabling interactivity and dynamic content.  
-Used across front‑end, back‑end, and full‑stack development.  
-
-![Next JS](https://shields.io)  
-Full‑stack React framework with SSR and routing.  
-Perfect for SEO‑friendly and performant apps.  
-
-![P5js](https://shields.io)  
-Creative coding library for visuals and interaction.  
-Great for art, design, and education projects.  
-
-![React](https://shields.io)  
-Component‑based library for building dynamic UIs.  
+## 💻 Frontend Development
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)  
+Component‑based library for dynamic UIs.  
 Backbone of many modern web apps.  
+Supports reusable and scalable design patterns.  
 
-![TailwindCSS](https://shields.io)  
-Utility‑first CSS framework for rapid styling.  
-Enables responsive, modern designs with minimal effort.  
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)  
+Full‑stack React framework with SSR.  
+Optimized for SEO‑friendly and performant apps.  
+Includes routing, API handling, and serverless support.  
 
-![Three js](https://shields.io)  
-JavaScript library for 3D graphics in the browser.  
-Used for interactive visualizations and WebGL rendering.  
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)  
+Lightweight reactive framework for UIs.  
+Flexible and beginner‑friendly.  
+Ideal for fast prototyping and modular apps.  
 
-![TypeScript](https://shields.io)  
-Strongly‑typed superset of JavaScript for scalable applications.  
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)  
+Enterprise‑grade frontend framework.  
+Provides strong typing, tooling, and scalability.  
+Used for large‑scale web applications.  
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
+Core scripting language of the web.  
+Enables interactivity and dynamic content.  
+Used across frontend, backend, and full‑stack.  
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)  
+Superset of JavaScript with static typing.  
 Improves maintainability and reduces runtime errors.  
+Widely adopted in scalable applications.  
 
-![Vue.js](https://shields.io)  
-Lightweight reactive framework for building user interfaces.  
-Great for fast, flexible front‑end development.  
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
+Defines semantic structure of web pages.  
+Supports multimedia, forms, and accessibility.  
+Foundation of modern web development.  
 
-![WebGL](https://shields.io)  
-Low‑level graphics API for rendering 3D in browsers.  
-Enables immersive visual experiences.  
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
+Controls styling and layout of web pages.  
+Supports responsive design and animations.  
+Essential for UI/UX design.  
 
-### ⚙️ Backend & Systems
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)  
+Utility‑first CSS framework.  
+Speeds up styling with prebuilt classes.  
+Perfect for responsive, modern designs.  
 
-![C++](https://shields.io)  
-Powerful language for system programming, performance‑critical applications, and competitive programming.  
-Widely used in game engines, operating systems, and algorithmic challenges.  
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)  
+Popular CSS framework with components.  
+Simplifies responsive design.  
+Great for quick prototyping.  
 
-![Express.js](https://shields.io)  
-Minimalist backend framework for APIs.  
-Simplifies server development with Node.js.  
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)  
+JavaScript library for 3D graphics.  
+Enables WebGL rendering in browsers.  
+Used for interactive visualizations.  
 
-![FastAPI](https://shields.io)  
-High‑performance Python web framework.  
-Perfect for building modern, fast APIs.  
+![WebGL](https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white)  
+Low‑level graphics API for browsers.  
+Supports immersive 3D experiences.  
+Foundation for advanced visual rendering.  
 
-![NodeJS](https://shields.io)  
-Server‑side JavaScript runtime.  
-Ideal for scalable APIs and real‑time applications.  
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black)  
+High‑performance animation library.  
+Used for motion design and interactivity.  
+Popular in creative web projects.  
 
-![Python](https://shields.io)  
-Versatile language for automation, data science, and AI.  
+![P5.js](https://img.shields.io/badge/P5.js-ED225D?style=for-the-badge&logo=p5dotjs&logoColor=white)  
+Creative coding library.  
+Great for visuals, art, and education.  
+Simplifies interactive design projects.  
+
+---
+
+## ⚙️ Backend & Systems
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  
+Versatile language for automation, AI, and data science.  
 Known for readability and rapid prototyping.  
+Widely used in backend and scientific computing.  
 
-![Uvicorn](https://shields.io)  
-Lightning‑fast ASGI server for Python apps.  
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)  
+High‑performance Python web framework.  
+Perfect for modern APIs.  
+Optimized for speed and concurrency.  
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)  
+Server‑side JavaScript runtime.  
+Ideal for scalable APIs and real‑time apps.  
+Backbone of many modern backends.  
+
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)  
+Minimalist backend framework.  
+Simplifies API development with Node.js.  
+Lightweight and flexible.  
+
+![Uvicorn](https://img.shields.io/badge/Uvicorn-FF6F00?style=for-the-badge&logo=python&logoColor=white)  
+ASGI server for Python apps.  
 Optimized for concurrency and real‑time services.  
+Often paired with FastAPI.  
 
-### 📊 Backend‑as‑a‑Service & Databases
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)  
+Powerful system programming language.  
+Used in game engines, OS, and performance‑critical apps.  
+Popular in competitive programming.  
 
-![Firebase](https://shields.io)  
-Google’s platform for app development.  
-Provides hosting, authentication, and real‑time databases.  
+---
 
-![PostgreSQL](https://shields.io)  
-Advanced open‑source relational database.  
+## 📊 Databases & BaaS
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)  
+Advanced relational database.  
 Trusted for scalability and complex queries.  
+Open‑source and enterprise‑ready.  
 
-![Supabase](https://shields.io)  
-Open‑source backend with database and auth.  
-Alternative to Firebase for modern apps.  
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)  
+Google’s app development platform.  
+Provides hosting, authentication, and real‑time DB.  
+Great for mobile and web apps.  
 
-### 🤖 AI, Data Science & Specialist Tech
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)  
+Open‑source Firebase alternative.  
+Includes database, auth, and APIs.  
+Modern choice for full‑stack apps.  
 
-![Climate Tech](https://shields.io)  
-Innovations tackling environmental challenges.  
-Drives sustainability and carbon reduction solutions.  
+---
 
-![Cryptography](https://shields.io)  
-Mathematical methods securing digital data.  
-Foundation for encryption, privacy, and trust online.  
+## 🤖 AI & Data Science
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white)  
+Visualization library for Python.  
+Creates charts, plots, and graphs with ease.  
+Widely used in data analysis and scientific reporting.  
 
-![Google Gemini SDK](https://shields.io)  
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)  
+Numerical computing library for Python.  
+Handles arrays, matrices, and mathematical operations.  
+Foundation for scientific computing and ML workflows.  
+
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)  
+Data manipulation and analysis library.  
+Provides powerful tools for tabular data.  
+Essential for data science pipelines and preprocessing.  
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)  
+Open‑source ML and deep learning platform.  
+Used for training and deploying neural networks.  
+Supports large‑scale AI applications.  
+
+![Google Gemini SDK](https://img.shields.io/badge/Gemini%20SDK-4285F4?style=for-the-badge&logo=google&logoColor=white)  
 Toolkit for integrating Google’s Gemini AI models.  
 Enables advanced generative AI features in apps.  
+Brings cutting‑edge AI into production systems.  
 
-![Matplotlib](https://shields.io)  
-Visualization library for Python.  
-Creates charts, plots, and graphs.  
+![Cryptography](https://img.shields.io/badge/Cryptography-000000?style=for-the-badge&logo=keybase&logoColor=white)  
+Secures digital data with mathematical methods.  
+Foundation for encryption, privacy, and trust online.  
+Critical for cybersecurity and secure communications.  
 
-![NumPy](https://shields.io)  
-Numerical computing library for Python.  
-Handles arrays, matrices, and scientific calculations.  
+![Climate Tech](https://img.shields.io/badge/Climate%20Tech-228B22?style=for-the-badge&logo=leaflet&logoColor=white)  
+Innovations tackling environmental challenges.  
+Focuses on sustainability and carbon reduction.  
+Supports global climate resilience efforts.  
 
-![Pandas](https://shields.io)  
-Python library for data manipulation and analysis.  
-Essential for data science workflows.  
-
-![Planetary Telemetry](https://shields.io)  
+![Planetary Telemetry](https://img.shields.io/badge/Planetary%20Telemetry-1E90FF?style=for-the-badge&logo=satellite&logoColor=white)  
 Systems for monitoring spacecraft and satellites.  
 Critical for space exploration and mission control.  
+Provides real‑time data for scientific research.  
 
-![TensorFlow](https://shields.io)  
-Open‑source platform for machine learning and deep learning.  
-Used for training and deploying complex neural network models.  
+---
 
-### 🛠️ DevOps, Testing & Development Tools
-
-![Git](https://shields.io)  
+## 🛠️ DevOps, Testing & Tools
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)  
 Version control system for tracking code changes.  
-Enables collaboration and branching.  
+Enables collaboration, branching, and merging.  
+Essential for modern software development.  
 
-![GitHub](https://shields.io)  
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)  
 Code hosting and collaboration platform.  
 Supports open‑source and enterprise projects.  
+Integrates with CI/CD and project management.  
 
-![GitHub Actions](https://shields.io)  
-CI/CD automation workflows on GitHub.  
-Helps streamline testing and deployment.  
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)  
+Automation workflows for CI/CD.  
+Streamlines testing, deployment, and integration.  
+Fully integrated with GitHub repositories.  
 
-![Prettier](https://shields.io)  
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)  
+Deployment platform for modern web apps.  
+Optimized for Next.js and serverless hosting.  
+Provides fast, scalable deployments.  
+
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)  
+Framework for browser automation and testing.  
+Used in QA, scraping, and regression testing.  
+Supports multiple browsers and platforms.  
+
+![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black)  
 Code formatter for consistent style.  
 Improves readability and collaboration.  
+Supports multiple languages and frameworks.  
 
-![Selenium](https://shields.io)  
-Framework for browser automation and testing.  
-Used in QA and scraping tasks.  
+---
 
-![Vercel](https://shields.io)  
-Deployment platform for modern web projects.  
-Optimized for Next.js and serverless hosting.  
-
-### 📁 Personal Showcase
-
-![Portfolio](https://shields.io)  
+## 📁 Personal Showcase
+![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=orange)  
 Personal showcase of projects and achievements.  
 Highlights skills, creations, and career journey.  
+Serves as a professional identity hub.  
+
 
 
 
