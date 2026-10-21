@@ -1,0 +1,2220 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Rayaan Tasnim | Sovereign Developer Ecosystem & Full-Stack Portfolio
+    </title>
+    <meta
+      name="description"
+      content="Portfolio of Rayaan Tasnim - 13-year-old Full-Stack Programmer, Math Enthusiast, Competitive Programmer & Founder of IDAI Universe."
+    />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="design.js"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    class="bg-[#07090e] text-slate-200 font-sans antialiased selection:bg-cyan-500 selection:text-black min-h-screen relative overflow-x-hidden"
+  >
+    <!-- Interactive Canvas Background -->
+    <canvas
+      id="bg-canvas"
+      class="fixed inset-0 pointer-events-none z-0 opacity-40"
+    ></canvas>
+
+    <!-- Ambient Gradient Blobs -->
+    <div
+      class="fixed top-1/4 left-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none z-0 animate-pulse"
+    ></div>
+    <div
+      class="fixed bottom-1/3 right-1/4 w-96 h-96 bg-purple-600/10 rounded-full blur-3xl pointer-events-none z-0 animate-pulse"
+      style="animation-delay: 1.5s"
+    ></div>
+
+    <!-- Navigation Bar -->
+    <header
+      id="navbar"
+      class="fixed top-0 left-0 w-full z-50 transition-all duration-300 border-b border-transparent"
+    >
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between"
+      >
+        <!-- Brand Logo -->
+        <a href="#identity" class="flex items-center gap-3 group">
+          <div
+            class="w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-500 via-blue-600 to-purple-600 p-[1px] transition-transform duration-300 group-hover:scale-105"
+          >
+            <div
+              class="w-full h-full bg-[#07090e] rounded-[11px] flex items-center justify-center"
+            >
+              <span
+                class="font-mono font-bold text-cyan-400 group-hover:text-white transition-colors"
+                >RT</span
+              >
+            </div>
+          </div>
+          <div class="flex flex-col">
+            <span
+              class="font-bold text-lg tracking-tight text-white group-hover:text-cyan-400 transition-colors"
+              >Rayaan Tasnim</span
+            >
+            <span
+              class="text-[10px] font-mono text-cyan-400/80 tracking-widest uppercase"
+              >IDAI Universe</span
+            >
+          </div>
+        </a>
+
+        <!-- Desktop Nav Links -->
+        <nav
+          class="hidden lg:flex items-center gap-1 bg-slate-900/60 backdrop-blur-md p-1.5 rounded-full border border-white/10 shadow-lg"
+        >
+          <a
+            href="#identity"
+            class="nav-link px-4 py-2 rounded-full text-xs font-medium text-slate-300 hover:text-white hover:bg-white/5 transition-all"
+            >Identity</a
+          >
+          <a
+            href="#overview"
+            class="nav-link px-4 py-2 rounded-full text-xs font-medium text-slate-300 hover:text-white hover:bg-white/5 transition-all"
+            >Overview</a
+          >
+          <a
+            href="#ecosystems"
+            class="nav-link px-4 py-2 rounded-full text-xs font-medium text-slate-300 hover:text-white hover:bg-white/5 transition-all"
+            >Ecosystems</a
+          >
+          <a
+            href="#about"
+            class="nav-link px-4 py-2 rounded-full text-xs font-medium text-slate-300 hover:text-white hover:bg-white/5 transition-all"
+            >About</a
+          >
+          <a
+            href="#skills"
+            class="nav-link px-4 py-2 rounded-full text-xs font-medium text-slate-300 hover:text-white hover:bg-white/5 transition-all"
+            >Skills</a
+          >
+          <a
+            href="#advanced"
+            class="nav-link px-4 py-2 rounded-full text-xs font-medium text-slate-300 hover:text-white hover:bg-white/5 transition-all"
+            >Concepts</a
+          >
+          <a
+            href="#techstack"
+            class="nav-link px-4 py-2 rounded-full text-xs font-medium text-slate-300 hover:text-white hover:bg-white/5 transition-all"
+            >Tech Stack</a
+          >
+          <a
+            href="#stats"
+            class="nav-link px-4 py-2 rounded-full text-xs font-medium text-slate-300 hover:text-white hover:bg-white/5 transition-all"
+            >Stats</a
+          >
+        </nav>
+
+        <!-- CTA & Mobile Toggle -->
+        <div class="flex items-center gap-3">
+          <a
+            href="#contact"
+            class="hidden sm:inline-flex items-center gap-2 px-4 py-2 text-xs font-semibold rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 text-black hover:brightness-110 transition-all shadow-lg shadow-cyan-500/20"
+          >
+            <i data-lucide="send" class="w-3.5 h-3.5"></i>
+            <span>Contact</span>
+          </a>
+
+          <button
+            id="mobile-menu-btn"
+            aria-label="Toggle Menu"
+            class="lg:hidden p-2 rounded-lg bg-slate-900/80 border border-white/10 text-slate-300 hover:text-white"
+          >
+            <i data-lucide="menu" class="w-6 h-6"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Drawer -->
+      <div
+        id="mobile-menu"
+        class="hidden lg:hidden bg-[#0a0d14]/95 backdrop-blur-xl border-b border-white/10 transition-all duration-300"
+      >
+        <div class="px-4 pt-2 pb-6 space-y-2 text-sm font-medium">
+          <a
+            href="#identity"
+            class="mobile-link block px-3 py-2 rounded-lg text-slate-300 hover:bg-white/5 hover:text-cyan-400"
+            >Identity</a
+          >
+          <a
+            href="#overview"
+            class="mobile-link block px-3 py-2 rounded-lg text-slate-300 hover:bg-white/5 hover:text-cyan-400"
+            >Overview</a
+          >
+          <a
+            href="#ecosystems"
+            class="mobile-link block px-3 py-2 rounded-lg text-slate-300 hover:bg-white/5 hover:text-cyan-400"
+            >Ecosystems & Projects</a
+          >
+          <a
+            href="#about"
+            class="mobile-link block px-3 py-2 rounded-lg text-slate-300 hover:bg-white/5 hover:text-cyan-400"
+            >About Me</a
+          >
+          <a
+            href="#skills"
+            class="mobile-link block px-3 py-2 rounded-lg text-slate-300 hover:bg-white/5 hover:text-cyan-400"
+            >Skills</a
+          >
+          <a
+            href="#advanced"
+            class="mobile-link block px-3 py-2 rounded-lg text-slate-300 hover:bg-white/5 hover:text-cyan-400"
+            >Advanced Concepts</a
+          >
+          <a
+            href="#techstack"
+            class="mobile-link block px-3 py-2 rounded-lg text-slate-300 hover:bg-white/5 hover:text-cyan-400"
+            >Tech Stack</a
+          >
+          <a
+            href="#stats"
+            class="mobile-link block px-3 py-2 rounded-lg text-slate-300 hover:bg-white/5 hover:text-cyan-400"
+            >GitHub Stats</a
+          >
+          <a
+            href="#contact"
+            class="mobile-link block px-3 py-2 rounded-lg text-cyan-400 bg-cyan-500/10 border border-cyan-500/20 font-semibold"
+            >Get in Touch</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN CONTENT WRAPPER -->
+    <main class="relative z-10 pt-24 space-y-24">
+      <!-- 01. HERO / IDENTITY SECTION -->
+      <section
+        id="identity"
+        class="min-h-[85vh] flex items-center justify-center px-4 sm:px-6 lg:px-8 relative bg-grid-pattern"
+      >
+        <div class="max-w-5xl mx-auto text-center space-y-8">
+          <!-- Status Badges Row -->
+          <div
+            class="flex flex-wrap items-center justify-center gap-2 sm:gap-3"
+          >
+            <span
+              class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-mono font-semibold bg-blue-500/10 text-blue-400 border border-blue-500/30"
+            >
+              <i data-lucide="rocket" class="w-3.5 h-3.5"></i> Founder @ IDAI
+              Universe
+            </span>
+            <span
+              class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-mono font-semibold bg-purple-500/10 text-purple-400 border border-purple-500/30"
+            >
+              <i data-lucide="zap" class="w-3.5 h-3.5"></i> Olympiad Edge
+            </span>
+            <span
+              class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-mono font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/30"
+            >
+              <i data-lucide="code" class="w-3.5 h-3.5"></i> Full-Stack Prodigy
+            </span>
+            <span
+              class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-mono font-semibold bg-orange-500/10 text-orange-400 border border-orange-500/30"
+            >
+              <i data-lucide="calculator" class="w-3.5 h-3.5"></i> Math
+              Enthusiast
+            </span>
+            <span
+              class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-mono font-semibold bg-red-500/10 text-red-400 border border-red-500/30 shadow-[0_0_12px_rgba(239,68,68,0.3)]"
+            >
+              <i data-lucide="trophy" class="w-3.5 h-3.5"></i> Codeforces: 1451
+              (Specialist)
+            </span>
+          </div>
+
+          <!-- Main Headline -->
+          <div class="space-y-4">
+            <h1
+              class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white"
+            >
+              ⚡
+              <span
+                class="bg-gradient-to-r from-white via-slate-100 to-slate-400 bg-clip-text text-transparent"
+                >Rayaan Tasnim</span
+              >
+            </h1>
+            <p
+              class="text-xl sm:text-2xl font-mono text-cyan-400 font-semibold tracking-wide neon-text-cyan"
+            >
+              13-Year-Old Full-Stack Programmer & Math Enthusiast
+            </p>
+            <p
+              class="text-sm sm:text-base text-slate-400 flex items-center justify-center gap-2"
+            >
+              <i data-lucide="map-pin" class="w-4 h-4 text-emerald-400"></i>
+              Mymensingh, Bangladesh
+            </p>
+          </div>
+
+          <!-- Quote Banner -->
+          <div
+            class="glass-card max-w-2xl mx-auto p-6 rounded-2xl border-l-4 border-l-cyan-400 relative overflow-hidden text-left"
+          >
+            <div
+              class="absolute -right-4 -bottom-4 opacity-5 text-cyan-400 pointer-events-none"
+            >
+              <i data-lucide="quote" class="w-32 h-32"></i>
+            </div>
+            <blockquote
+              class="text-lg sm:text-xl font-medium text-slate-200 italic"
+            >
+              “More than what you imagine.”
+            </blockquote>
+            <p
+              class="mt-2 text-sm text-cyan-400 font-mono tracking-wider uppercase"
+            >
+              — Inspiring Trust Through Innovation
+            </p>
+          </div>
+
+          <!-- Key Metrics Counter Grid -->
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4 pt-6">
+            <div class="glass-card p-4 rounded-xl text-center">
+              <div
+                class="text-2xl sm:text-3xl font-extrabold text-cyan-400 font-mono"
+                id="stat-age"
+              >
+                13
+              </div>
+              <div class="text-xs text-slate-400 mt-1 uppercase font-mono">
+                Years Old
+              </div>
+            </div>
+            <div class="glass-card p-4 rounded-xl text-center">
+              <div
+                class="text-2xl sm:text-3xl font-extrabold text-purple-400 font-mono"
+              >
+                1451
+              </div>
+              <div class="text-xs text-slate-400 mt-1 uppercase font-mono">
+                CF Rating
+              </div>
+            </div>
+            <div class="glass-card p-4 rounded-xl text-center">
+              <div
+                class="text-2xl sm:text-3xl font-extrabold text-emerald-400 font-mono"
+              >
+                101+
+              </div>
+              <div class="text-xs text-slate-400 mt-1 uppercase font-mono">
+                Repositories
+              </div>
+            </div>
+            <div class="glass-card p-4 rounded-xl text-center">
+              <div
+                class="text-2xl sm:text-3xl font-extrabold text-orange-400 font-mono"
+              >
+                57th
+              </div>
+              <div class="text-xs text-slate-400 mt-1 uppercase font-mono">
+                National Cadet Merit
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Action Buttons -->
+          <div class="flex flex-wrap items-center justify-center gap-4 pt-4">
+            <a
+              href="#ecosystems"
+              class="px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-500 via-blue-600 to-purple-600 text-slate-950 font-bold text-sm hover:brightness-110 transition-all shadow-lg shadow-cyan-500/25 flex items-center gap-2"
+            >
+              <i data-lucide="globe" class="w-4 h-4"></i> Explore Ecosystems
+            </a>
+            <a
+              href="#contact"
+              class="px-6 py-3 rounded-xl glass-card text-white font-medium text-sm hover:bg-white/10 transition-all flex items-center gap-2 border border-white/10"
+            >
+              <i data-lucide="mail" class="w-4 h-4 text-cyan-400"></i> Get In
+              Touch
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 02. OVERVIEW & MISSION SECTION -->
+      <section id="overview" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="space-y-8">
+          <div class="text-center max-w-3xl mx-auto space-y-2">
+            <h2
+              class="text-xs font-mono uppercase tracking-widest text-cyan-400"
+            >
+              02. Executive Summary
+            </h2>
+            <h3 class="text-3xl sm:text-4xl font-bold text-white">
+              Overview & Mission
+            </h3>
+            <div
+              class="w-16 h-1 bg-gradient-to-r from-cyan-500 to-purple-500 mx-auto rounded-full"
+            ></div>
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-8">
+            <!-- Overview Card -->
+            <div
+              class="glass-card p-8 rounded-2xl relative overflow-hidden group"
+            >
+              <div
+                class="absolute top-0 right-0 w-32 h-32 bg-cyan-500/5 rounded-bl-full pointer-events-none group-hover:bg-cyan-500/10 transition-colors"
+              ></div>
+              <div class="flex items-center gap-3 mb-4">
+                <div
+                  class="p-3 rounded-xl bg-cyan-500/10 text-cyan-400 border border-cyan-500/20"
+                >
+                  <i data-lucide="user-check" class="w-6 h-6"></i>
+                </div>
+                <h4 class="text-xl font-bold text-white">Architect Profile</h4>
+              </div>
+              <p class="text-slate-300 leading-relaxed text-sm sm:text-base">
+                Rayaan Tasnim is a
+                <strong class="text-cyan-400 font-semibold"
+                  >13-year-old full-stack programmer, math enthusiast, and tech
+                  creator</strong
+                >
+                from Mymensingh, Bangladesh. He is known for architecting
+                complex web applications, high-velocity math-training platforms
+                like <em class="text-purple-300">PrimeFactor.app</em>, and
+                advanced developer ecosystems under his sovereign digital
+                mothership, <strong class="text-white">IDAI Universe</strong>.
+              </p>
+            </div>
+
+            <!-- Mission Card -->
+            <div
+              class="glass-card p-8 rounded-2xl relative overflow-hidden group"
+            >
+              <div
+                class="absolute top-0 right-0 w-32 h-32 bg-purple-500/5 rounded-bl-full pointer-events-none group-hover:bg-purple-500/10 transition-colors"
+              ></div>
+              <div class="flex items-center gap-3 mb-4">
+                <div
+                  class="p-3 rounded-xl bg-purple-500/10 text-purple-400 border border-purple-500/20"
+                >
+                  <i data-lucide="compass" class="w-6 h-6"></i>
+                </div>
+                <h4 class="text-xl font-bold text-white">Core Mission</h4>
+              </div>
+              <p class="text-slate-300 leading-relaxed text-sm sm:text-base">
+                To seamlessly blend
+                <span class="text-cyan-400 font-medium">science</span>,
+                <span class="text-purple-400 font-medium">creativity</span>, and
+                <span class="text-emerald-400 font-medium">faith</span> into
+                technological innovations that inspire humanity, advance
+                competitive computing, and break conventional boundaries.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 03. PLATFORMS & ECOSYSTEMS SECTION -->
+      <section id="ecosystems" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="space-y-10">
+          <div class="text-center max-w-3xl mx-auto space-y-2">
+            <h2
+              class="text-xs font-mono uppercase tracking-widest text-cyan-400"
+            >
+              03. Digital Infrastructure
+            </h2>
+            <h3 class="text-3xl sm:text-4xl font-bold text-white">
+              Platforms & Ecosystems
+            </h3>
+            <p class="text-slate-400 text-sm">
+              Sovereign architectures built for high-velocity orchestration and
+              mathematical speed.
+            </p>
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-8">
+            <!-- IDAI Universe -->
+            <div
+              class="glass-card p-8 rounded-2xl flex flex-col justify-between border border-cyan-500/20 hover:border-cyan-500/50 transition-all"
+            >
+              <div class="space-y-4">
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center gap-3">
+                    <div class="p-3 rounded-xl bg-cyan-500/10 text-cyan-400">
+                      <i data-lucide="cloud-lightning" class="w-6 h-6"></i>
+                    </div>
+                    <div>
+                      <h4 class="text-xl font-bold text-white">
+                        IDAI Universe
+                      </h4>
+                      <span class="text-xs font-mono text-cyan-400"
+                        >Digital Empire • Antarctica Ops</span
+                      >
+                    </div>
+                  </div>
+                  <span
+                    class="px-2.5 py-1 rounded-full text-[10px] font-mono bg-blue-500/10 text-blue-400 border border-blue-500/30"
+                    >HQ Antarctica</span
+                  >
+                </div>
+                <p class="text-slate-300 text-sm leading-relaxed">
+                  A technological superpower rooted in Antarctica’s 14,200,000
+                  km² terrain. Coordinates distributed state machines,
+                  serverless execution algorithms, and autonomous cognitive
+                  pipelines with zero-trust cloud sync.
+                </p>
+                <ul class="text-xs text-slate-400 space-y-2 font-mono">
+                  <li class="flex items-center gap-2">
+                    <i
+                      data-lucide="check-circle"
+                      class="w-3.5 h-3.5 text-cyan-400"
+                    ></i>
+                    Zero-trust cloud synchronization
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i
+                      data-lucide="check-circle"
+                      class="w-3.5 h-3.5 text-cyan-400"
+                    ></i>
+                    Hyper-fast structural velocity
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i
+                      data-lucide="check-circle"
+                      class="w-3.5 h-3.5 text-cyan-400"
+                    ></i>
+                    Absolute persistence layer control
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="pt-6 mt-6 border-t border-white/10 flex justify-between items-center"
+              >
+                <button
+                  onclick="openModal('idai-modal')"
+                  class="text-xs font-mono text-cyan-400 hover:text-cyan-300 flex items-center gap-1"
+                >
+                  View Blueprint
+                  <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                </button>
+                <span class="text-[10px] font-mono text-slate-500"
+                  >v4.2 Distributed</span
+                >
+              </div>
+            </div>
+
+            <!-- Olympiad Edge -->
+            <div
+              class="glass-card p-8 rounded-2xl flex flex-col justify-between border border-purple-500/20 hover:border-purple-500/50 transition-all"
+            >
+              <div class="space-y-4">
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center gap-3">
+                    <div
+                      class="p-3 rounded-xl bg-purple-500/10 text-purple-400"
+                    >
+                      <i data-lucide="cpu" class="w-6 h-6"></i>
+                    </div>
+                    <div>
+                      <h4 class="text-xl font-bold text-white">
+                        Olympiad Edge
+                      </h4>
+                      <span class="text-xs font-mono text-purple-400"
+                        >High-Velocity Contest Layer</span
+                      >
+                    </div>
+                  </div>
+                  <span
+                    class="px-2.5 py-1 rounded-full text-[10px] font-mono bg-purple-500/10 text-purple-400 border border-purple-500/30"
+                    >&lt;2ms Overhead</span
+                  >
+                </div>
+                <p class="text-slate-300 text-sm leading-relaxed">
+                  A request orchestration layer engineered for competitive
+                  programming supremacy. Coordinates task dispatching,
+                  sandboxing, and telemetry across high-performance nodes.
+                </p>
+                <div
+                  class="grid grid-cols-2 gap-2 text-xs font-mono text-slate-300 pt-2"
+                >
+                  <div
+                    class="bg-slate-900/80 p-2 rounded border border-white/5"
+                  >
+                    <span class="text-purple-400">Amethyst:</span> L7 Load
+                    Balancer
+                  </div>
+                  <div
+                    class="bg-slate-900/80 p-2 rounded border border-white/5"
+                  >
+                    <span class="text-cyan-400">Sapphire:</span> Sandbox
+                    Dispatch
+                  </div>
+                  <div
+                    class="bg-slate-900/80 p-2 rounded border border-white/5"
+                  >
+                    <span class="text-emerald-400">Aquamarine:</span> Raft
+                    Consensus
+                  </div>
+                  <div
+                    class="bg-slate-900/80 p-2 rounded border border-white/5"
+                  >
+                    <span class="text-red-400">Emerald:</span> mTLS Firewall
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pt-6 mt-6 border-t border-white/10 flex justify-between items-center"
+              >
+                <button
+                  onclick="openModal('olympiad-modal')"
+                  class="text-xs font-mono text-purple-400 hover:text-purple-300 flex items-center gap-1"
+                >
+                  Layer Specifications
+                  <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                </button>
+                <span class="text-[10px] font-mono text-slate-500"
+                  >Topaz FPGA/GPU Verified</span
+                >
+              </div>
+            </div>
+
+            <!-- PrimeFactor.app -->
+            <div
+              class="glass-card p-8 rounded-2xl flex flex-col justify-between border border-yellow-500/20 hover:border-yellow-500/50 transition-all"
+            >
+              <div class="space-y-4">
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center gap-3">
+                    <div
+                      class="p-3 rounded-xl bg-yellow-500/10 text-yellow-400"
+                    >
+                      <i data-lucide="calculator" class="w-6 h-6"></i>
+                    </div>
+                    <div>
+                      <h4 class="text-xl font-bold text-white">
+                        PrimeFactor.app
+                      </h4>
+                      <span class="text-xs font-mono text-yellow-400"
+                        >Prime Factorization Lab</span
+                      >
+                    </div>
+                  </div>
+                  <span
+                    class="px-2.5 py-1 rounded-full text-[10px] font-mono bg-yellow-500/10 text-yellow-400 border border-yellow-500/30"
+                    >Zero Server Overhead</span
+                  >
+                </div>
+                <p class="text-slate-300 text-sm leading-relaxed">
+                  A privacy-first training laboratory for competitive
+                  mathematics. Features timed 10-question drills powered by
+                  deterministic client-side algorithm implementations.
+                </p>
+                <ul class="text-xs text-slate-400 space-y-2 font-mono">
+                  <li class="flex items-center gap-2">
+                    <i
+                      data-lucide="code-2"
+                      class="w-3.5 h-3.5 text-yellow-400"
+                    ></i>
+                    Client-side Miller-Rabin & Pollard’s Rho
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i
+                      data-lucide="shield"
+                      class="w-3.5 h-3.5 text-yellow-400"
+                    ></i>
+                    Zero server dependencies via ESM
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i
+                      data-lucide="award"
+                      class="w-3.5 h-3.5 text-yellow-400"
+                    ></i>
+                    Tracks ELO ratings & Sub-Second Honors
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="pt-6 mt-6 border-t border-white/10 flex justify-between items-center"
+              >
+                <button
+                  onclick="openModal('primefactor-modal')"
+                  class="text-xs font-mono text-yellow-400 hover:text-yellow-300 flex items-center gap-1"
+                >
+                  Algorithmic Proofs
+                  <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                </button>
+                <span class="text-[10px] font-mono text-slate-500"
+                  >ECMAScript Native</span
+                >
+              </div>
+            </div>
+
+            <!-- Novice Guidelines -->
+            <div
+              class="glass-card p-8 rounded-2xl flex flex-col justify-between border border-cyan-500/20 hover:border-cyan-500/50 transition-all"
+            >
+              <div class="space-y-4">
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center gap-3">
+                    <div class="p-3 rounded-xl bg-cyan-500/10 text-cyan-400">
+                      <i data-lucide="book-open" class="w-6 h-6"></i>
+                    </div>
+                    <div>
+                      <h4 class="text-xl font-bold text-white">
+                        Guideline for Novice Programmers
+                      </h4>
+                      <span class="text-xs font-mono text-cyan-400"
+                        >Onboarding Roadmap</span
+                      >
+                    </div>
+                  </div>
+                  <span
+                    class="px-2.5 py-1 rounded-full text-[10px] font-mono bg-cyan-500/10 text-cyan-400 border border-cyan-500/30"
+                    >Beginner to Pro</span
+                  >
+                </div>
+                <p class="text-slate-300 text-sm leading-relaxed">
+                  A step-by-step vector guiding raw beginners to competitive
+                  programming mastery with automated tooling setup, compiler
+                  guides, and friction-free judge interfacing.
+                </p>
+                <ul class="text-xs text-slate-400 space-y-2 font-mono">
+                  <li class="flex items-center gap-2">
+                    <i
+                      data-lucide="terminal"
+                      class="w-3.5 h-3.5 text-cyan-400"
+                    ></i>
+                    Automated VS Code workstation setup
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i
+                      data-lucide="settings"
+                      class="w-3.5 h-3.5 text-cyan-400"
+                    ></i>
+                    Local compiler configuration & terminal execution
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <i
+                      data-lucide="git-branch"
+                      class="w-3.5 h-3.5 text-cyan-400"
+                    ></i>
+                    Repository control & contest readiness
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="pt-6 mt-6 border-t border-white/10 flex justify-between items-center"
+              >
+                <button
+                  onclick="openModal('guideline-modal')"
+                  class="text-xs font-mono text-cyan-400 hover:text-cyan-300 flex items-center gap-1"
+                >
+                  Read Roadmap
+                  <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                </button>
+                <span class="text-[10px] font-mono text-slate-500"
+                  >Zero Friction Onboarding</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 04. ABOUT ME SECTION -->
+      <section id="about" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="space-y-10">
+          <div class="text-center max-w-3xl mx-auto space-y-2">
+            <h2
+              class="text-xs font-mono uppercase tracking-widest text-cyan-400"
+            >
+              04. Biography & Aspirations
+            </h2>
+            <h3 class="text-3xl sm:text-4xl font-bold text-white">About Me</h3>
+            <div
+              class="w-16 h-1 bg-gradient-to-r from-cyan-500 to-emerald-500 mx-auto rounded-full"
+            ></div>
+          </div>
+
+          <div class="grid lg:grid-cols-3 gap-8">
+            <!-- Left Timeline Column -->
+            <div class="lg:col-span-2 glass-card p-8 rounded-2xl space-y-6">
+              <h4 class="text-xl font-bold text-white flex items-center gap-2">
+                <i data-lucide="activity" class="w-5 h-5 text-cyan-400"></i>
+                Current Focus & Aspirations
+              </h4>
+
+              <div class="space-y-4 border-l-2 border-cyan-500/30 pl-6 ml-2">
+                <div class="relative group">
+                  <div
+                    class="absolute -left-[31px] top-1.5 w-3 h-3 rounded-full bg-cyan-400 border-4 border-[#07090e]"
+                  ></div>
+                  <h5 class="text-sm font-semibold text-white">
+                    Expanding IDAI Universe & Interactive Web Platforms
+                  </h5>
+                  <p class="text-xs text-slate-400 mt-1">
+                    Building web-based canvases, 3D graphics, and sovereign
+                    cloud ecosystems.
+                  </p>
+                </div>
+
+                <div class="relative group">
+                  <div
+                    class="absolute -left-[31px] top-1.5 w-3 h-3 rounded-full bg-purple-400 border-4 border-[#07090e]"
+                  ></div>
+                  <h5 class="text-sm font-semibold text-white">
+                    Competitive Programming Prep (NHSPC & IOI)
+                  </h5>
+                  <p class="text-xs text-slate-400 mt-1">
+                    Mastering deep C++ algorithmic logic, advanced graph theory,
+                    and dynamic programming to elevate Codeforces performance.
+                  </p>
+                </div>
+
+                <div class="relative group">
+                  <div
+                    class="absolute -left-[31px] top-1.5 w-3 h-3 rounded-full bg-emerald-400 border-4 border-[#07090e]"
+                  ></div>
+                  <h5 class="text-sm font-semibold text-white">
+                    Collaboration Horizons
+                  </h5>
+                  <p class="text-xs text-slate-400 mt-1">
+                    Eager to collaborate on open-source AI tools, WebGL canvas
+                    engines, and mathematical software.
+                  </p>
+                </div>
+
+                <div class="relative group">
+                  <div
+                    class="absolute -left-[31px] top-1.5 w-3 h-3 rounded-full bg-orange-400 border-4 border-[#07090e]"
+                  ></div>
+                  <h5 class="text-sm font-semibold text-white">Future Dream</h5>
+                  <p class="text-xs text-slate-400 mt-1">
+                    Aspiring to join <strong>MIT</strong> and contribute to
+                    planetary telemetry systems at <strong>NASA JPL</strong>.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Personal Fun Facts Card -->
+            <div
+              class="glass-card p-8 rounded-2xl flex flex-col justify-between space-y-6 bg-gradient-to-br from-slate-900/90 to-purple-950/20"
+            >
+              <div>
+                <h4
+                  class="text-xl font-bold text-white flex items-center gap-2 mb-4"
+                >
+                  <i data-lucide="sparkles" class="w-5 h-5 text-yellow-400"></i>
+                  Personal Highlights
+                </h4>
+
+                <ul class="space-y-4 text-sm text-slate-300">
+                  <li class="flex items-start gap-3">
+                    <div
+                      class="p-2 rounded bg-yellow-500/10 text-yellow-400 shrink-0"
+                    >
+                      <i data-lucide="award" class="w-4 h-4"></i>
+                    </div>
+                    <div>
+                      <span class="font-semibold text-white"
+                        >Cadet College Merit:</span
+                      >
+                      <p class="text-xs text-slate-400">
+                        Placed 57th in the national merit list across
+                        Bangladesh.
+                      </p>
+                    </div>
+                  </li>
+
+                  <li class="flex items-start gap-3">
+                    <div
+                      class="p-2 rounded bg-red-500/10 text-red-400 shrink-0"
+                    >
+                      <i data-lucide="swords" class="w-4 h-4"></i>
+                    </div>
+                    <div>
+                      <span class="font-semibold text-white"
+                        >Martial Arts Practitioner:</span
+                      >
+                      <p class="text-xs text-slate-400">
+                        Active Karate practitioner focusing on discipline and
+                        focus.
+                      </p>
+                    </div>
+                  </li>
+
+                  <li class="flex items-start gap-3">
+                    <div
+                      class="p-2 rounded bg-cyan-500/10 text-cyan-400 shrink-0"
+                    >
+                      <i data-lucide="keyboard" class="w-4 h-4"></i>
+                    </div>
+                    <div>
+                      <span class="font-semibold text-white"
+                        >Touch Typist:</span
+                      >
+                      <p class="text-xs text-slate-400">
+                        Tactile keyboard mastery for rapid coding execution.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <div
+                class="p-4 rounded-xl bg-cyan-500/10 border border-cyan-500/20 text-center"
+              >
+                <span class="text-xs font-mono text-cyan-300"
+                  >Ask me about competitive programming, web development, or MIT
+                  dreams!</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 05. SKILLS BREAKDOWN SECTION -->
+      <section id="skills" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="space-y-10">
+          <div class="text-center max-w-3xl mx-auto space-y-2">
+            <h2
+              class="text-xs font-mono uppercase tracking-widest text-cyan-400"
+            >
+              05. Core Competencies
+            </h2>
+            <h3 class="text-3xl sm:text-4xl font-bold text-white">
+              Skills Breakdown
+            </h3>
+            <p class="text-slate-400 text-sm">
+              Comprehensive breakdown across 11 technical engineering
+              disciplines.
+            </p>
+          </div>
+
+          <!-- Skills Category Grid -->
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- 01 Programming Languages -->
+            <div
+              class="glass-card p-6 rounded-2xl flex flex-col justify-between space-y-4"
+            >
+              <div class="space-y-2">
+                <span class="text-xs font-mono text-cyan-400"
+                  >01. Core Programming</span
+                >
+                <h4 class="text-lg font-bold text-white">
+                  Programming Languages
+                </h4>
+                <div class="flex flex-wrap gap-1.5 pt-1">
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-blue-500/10 text-blue-300 border border-blue-500/20"
+                    >C++</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-yellow-500/10 text-yellow-300 border border-yellow-500/20"
+                    >JavaScript</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-blue-400/10 text-blue-200 border border-blue-400/20"
+                    >TypeScript</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-emerald-500/10 text-emerald-300 border border-emerald-500/20"
+                    >Python</span
+                  >
+                </div>
+              </div>
+              <blockquote
+                class="text-xs text-slate-400 italic border-l-2 border-cyan-500/40 pl-3"
+              >
+                “C++ drives high-performance solutions, JavaScript and
+                TypeScript power dynamic web ecosystems, and Python supports
+                scientific research.”
+              </blockquote>
+            </div>
+
+            <!-- 02 Web Standards -->
+            <div
+              class="glass-card p-6 rounded-2xl flex flex-col justify-between space-y-4"
+            >
+              <div class="space-y-2">
+                <span class="text-xs font-mono text-cyan-400"
+                  >02. Web Foundation</span
+                >
+                <h4 class="text-lg font-bold text-white">Web Standards</h4>
+                <div class="flex flex-wrap gap-1.5 pt-1">
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-orange-500/10 text-orange-300 border border-orange-500/20"
+                    >HTML5</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-purple-500/10 text-purple-300 border border-purple-500/20"
+                    >XML</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-blue-500/10 text-blue-300 border border-blue-500/20"
+                    >CSS3</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-yellow-500/10 text-yellow-300 border border-yellow-500/20"
+                    >Modern JS</span
+                  >
+                </div>
+              </div>
+              <blockquote
+                class="text-xs text-slate-400 italic border-l-2 border-cyan-500/40 pl-3"
+              >
+                “HTML5 ensures semantic clarity while CSS3 unlocks responsive
+                layouts, harmonizing usability and creativity.”
+              </blockquote>
+            </div>
+
+            <!-- 03 Frameworks & Libraries -->
+            <div
+              class="glass-card p-6 rounded-2xl flex flex-col justify-between space-y-4"
+            >
+              <div class="space-y-2">
+                <span class="text-xs font-mono text-cyan-400"
+                  >03. Frontend & Graphics</span
+                >
+                <h4 class="text-lg font-bold text-white">
+                  Frameworks & Libraries
+                </h4>
+                <div class="flex flex-wrap gap-1.5 pt-1">
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-cyan-500/10 text-cyan-300"
+                    >React</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-white/10 text-white"
+                    >Next.js</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-emerald-500/10 text-emerald-300"
+                    >Vue.js</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-red-500/10 text-red-300"
+                    >Angular</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-purple-500/10 text-purple-300"
+                    >Three.js</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-blue-500/10 text-blue-300"
+                    >Tailwind</span
+                  >
+                </div>
+              </div>
+              <blockquote
+                class="text-xs text-slate-400 italic border-l-2 border-cyan-500/40 pl-3"
+              >
+                “React and Vue power reactive interfaces, Next.js streamlines
+                performance, and Three.js/WebGL bring immersive 3D worlds to
+                life.”
+              </blockquote>
+            </div>
+
+            <!-- 04 Platforms & Services -->
+            <div
+              class="glass-card p-6 rounded-2xl flex flex-col justify-between space-y-4"
+            >
+              <div class="space-y-2">
+                <span class="text-xs font-mono text-cyan-400"
+                  >04. Cloud Infrastructure</span
+                >
+                <h4 class="text-lg font-bold text-white">
+                  Platforms & Services
+                </h4>
+                <div class="flex flex-wrap gap-1.5 pt-1">
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-white/10 text-white"
+                    >Vercel</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-emerald-500/10 text-emerald-300"
+                    >Supabase</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-yellow-500/10 text-yellow-300"
+                    >Firebase</span
+                  >
+                </div>
+              </div>
+              <blockquote
+                class="text-xs text-slate-400 italic border-l-2 border-cyan-500/40 pl-3"
+              >
+                “Vercel ensures frictionless deployment pipelines, while
+                Supabase provides real-time database infrastructure.”
+              </blockquote>
+            </div>
+
+            <!-- 05 Design Tools -->
+            <div
+              class="glass-card p-6 rounded-2xl flex flex-col justify-between space-y-4"
+            >
+              <div class="space-y-2">
+                <span class="text-xs font-mono text-cyan-400"
+                  >05. Creative Design</span
+                >
+                <h4 class="text-lg font-bold text-white">Design Tools</h4>
+                <div class="flex flex-wrap gap-1.5 pt-1">
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-orange-500/10 text-orange-300"
+                    >Illustrator</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-blue-500/10 text-blue-300"
+                    >Photoshop</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-cyan-500/10 text-cyan-300"
+                    >Canva</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-red-500/10 text-red-300"
+                    >Figma</span
+                  >
+                </div>
+              </div>
+              <blockquote
+                class="text-xs text-slate-400 italic border-l-2 border-cyan-500/40 pl-3"
+              >
+                “Figma enables collaborative prototyping while Illustrator &
+                Photoshop refine intricate graphics and digital assets.”
+              </blockquote>
+            </div>
+
+            <!-- 06 Data & Analysis -->
+            <div
+              class="glass-card p-6 rounded-2xl flex flex-col justify-between space-y-4"
+            >
+              <div class="space-y-2">
+                <span class="text-xs font-mono text-cyan-400"
+                  >06. Computational Analysis</span
+                >
+                <h4 class="text-lg font-bold text-white">Data & Analysis</h4>
+                <div class="flex flex-wrap gap-1.5 pt-1">
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-purple-500/10 text-purple-300"
+                    >Pandas</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-blue-500/10 text-blue-300"
+                    >NumPy</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-yellow-500/10 text-yellow-300"
+                    >ECMAScript</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-teal-500/10 text-teal-300"
+                    >Matplotlib</span
+                  >
+                </div>
+              </div>
+              <blockquote
+                class="text-xs text-slate-400 italic border-l-2 border-cyan-500/40 pl-3"
+              >
+                “Pandas structures datasets, NumPy powers numerical computation,
+                and Matplotlib visualizes trends with precision.”
+              </blockquote>
+            </div>
+
+            <!-- 07 DevOps & Utilities -->
+            <div
+              class="glass-card p-6 rounded-2xl flex flex-col justify-between space-y-4"
+            >
+              <div class="space-y-2">
+                <span class="text-xs font-mono text-cyan-400"
+                  >07. Automation & CI/CD</span
+                >
+                <h4 class="text-lg font-bold text-white">DevOps & Utilities</h4>
+                <div class="flex flex-wrap gap-1.5 pt-1">
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-orange-500/10 text-orange-300"
+                    >Git</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-white/10 text-white"
+                    >GitHub</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-blue-500/10 text-blue-300"
+                    >Actions</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-emerald-500/10 text-emerald-300"
+                    >Selenium</span
+                  >
+                </div>
+              </div>
+              <blockquote
+                class="text-xs text-slate-400 italic border-l-2 border-cyan-500/40 pl-3"
+              >
+                “Git anchors collaboration while GitHub Actions automated
+                pipelines enforce continuous integration and consistency.”
+              </blockquote>
+            </div>
+
+            <!-- 08 Databases & Storage -->
+            <div
+              class="glass-card p-6 rounded-2xl flex flex-col justify-between space-y-4"
+            >
+              <div class="space-y-2">
+                <span class="text-xs font-mono text-cyan-400"
+                  >08. Persistence Layers</span
+                >
+                <h4 class="text-lg font-bold text-white">
+                  Databases & Storage
+                </h4>
+                <div class="flex flex-wrap gap-1.5 pt-1">
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-blue-500/10 text-blue-300"
+                    >MySQL</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-blue-400/10 text-blue-200"
+                    >PostgreSQL</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-emerald-500/10 text-emerald-300"
+                    >MongoDB</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-red-500/10 text-red-300"
+                    >Redis</span
+                  >
+                </div>
+              </div>
+              <blockquote
+                class="text-xs text-slate-400 italic border-l-2 border-cyan-500/40 pl-3"
+              >
+                “SQL systems ensure structured reliability, while NoSQL options
+                like MongoDB and Redis deliver speed and flexibility.”
+              </blockquote>
+            </div>
+
+            <!-- 09 AI & ML Expertise -->
+            <div
+              class="glass-card p-6 rounded-2xl flex flex-col justify-between space-y-4"
+            >
+              <div class="space-y-2">
+                <span class="text-xs font-mono text-cyan-400"
+                  >09. Machine Intelligence</span
+                >
+                <h4 class="text-lg font-bold text-white">AI & ML Expertise</h4>
+                <div class="flex flex-wrap gap-1.5 pt-1">
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-purple-500/10 text-purple-300"
+                    >Speech Synth</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-yellow-500/10 text-yellow-300"
+                    >CocoSSD</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-cyan-500/10 text-cyan-300"
+                    >NLP</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-emerald-500/10 text-emerald-300"
+                    >Vision</span
+                  >
+                </div>
+              </div>
+              <blockquote
+                class="text-xs text-slate-400 italic border-l-2 border-cyan-500/40 pl-3"
+              >
+                “Voice recognition, NLP, and computer vision form the core of
+                intelligent interaction and human-AI synergy.”
+              </blockquote>
+            </div>
+
+            <!-- 10 Web-Based ML -->
+            <div
+              class="glass-card p-6 rounded-2xl flex flex-col justify-between space-y-4"
+            >
+              <div class="space-y-2">
+                <span class="text-xs font-mono text-cyan-400"
+                  >10. Client-Side AI</span
+                >
+                <h4 class="text-lg font-bold text-white">
+                  Web-Based Machine Learning
+                </h4>
+                <div class="flex flex-wrap gap-1.5 pt-1">
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-red-500/10 text-red-300"
+                    >TensorFlow.js</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-pink-500/10 text-pink-300"
+                    >ML5.js</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-blue-500/10 text-blue-300"
+                    >Inference</span
+                  >
+                </div>
+              </div>
+              <blockquote
+                class="text-xs text-slate-400 italic border-l-2 border-cyan-500/40 pl-3"
+              >
+                “ML5.js and TensorFlow.js enable running neural networks
+                natively in the browser bypassing backend server needs.”
+              </blockquote>
+            </div>
+
+            <!-- 11 Web Automation -->
+            <div
+              class="glass-card p-6 rounded-2xl flex flex-col justify-between space-y-4 md:col-span-2 lg:col-span-2"
+            >
+              <div class="space-y-2">
+                <span class="text-xs font-mono text-cyan-400"
+                  >11. Scraping & Automation</span
+                >
+                <h4 class="text-lg font-bold text-white">
+                  Web Automation & Scraping Pipeline
+                </h4>
+                <div class="flex flex-wrap gap-1.5 pt-1">
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-emerald-500/10 text-emerald-300"
+                    >Selenium</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-blue-500/10 text-blue-300"
+                    >Python Requests</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-yellow-500/10 text-yellow-300"
+                    >BeautifulSoup4</span
+                  >
+                  <span
+                    class="px-2 py-0.5 rounded text-xs font-mono bg-purple-500/10 text-purple-300"
+                    >Automated Testing</span
+                  >
+                </div>
+              </div>
+              <blockquote
+                class="text-xs text-slate-400 italic border-l-2 border-cyan-500/40 pl-3"
+              >
+                “Automation utilities transform manual browser interactions into
+                scalable data extraction and validation pipelines.”
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 06. ADVANCED CONCEPTS GRID SECTION -->
+      <section id="advanced" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="space-y-10">
+          <div class="text-center max-w-3xl mx-auto space-y-2">
+            <h2
+              class="text-xs font-mono uppercase tracking-widest text-purple-400"
+            >
+              06. Specialized Methodologies
+            </h2>
+            <h3 class="text-3xl sm:text-4xl font-bold text-white">
+              Advanced Concepts
+            </h3>
+            <p class="text-slate-400 text-sm">
+              Sophisticated architectural methodologies and discrete
+              mathematical patterns.
+            </p>
+          </div>
+
+          <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div
+              class="glass-card p-6 rounded-2xl space-y-3 relative overflow-hidden group"
+            >
+              <div class="p-3 rounded-xl bg-cyan-500/10 text-cyan-400 w-fit">
+                <i data-lucide="layers" class="w-6 h-6"></i>
+              </div>
+              <h4 class="text-base font-bold text-white">
+                Micro-Interactive Front-End Architecture
+              </h4>
+              <p class="text-xs text-slate-400 leading-relaxed">
+                Fluid micro-interactions, custom WebGL animations, and
+                responsive component ecosystems.
+              </p>
+            </div>
+
+            <div
+              class="glass-card p-6 rounded-2xl space-y-3 relative overflow-hidden group"
+            >
+              <div
+                class="p-3 rounded-xl bg-purple-500/10 text-purple-400 w-fit"
+              >
+                <i data-lucide="gamepad-2" class="w-6 h-6"></i>
+              </div>
+              <h4 class="text-base font-bold text-white">
+                Gamified State Engineering
+              </h4>
+              <p class="text-xs text-slate-400 leading-relaxed">
+                Deterministic application state machines integrated with game
+                mechanics & reward loops.
+              </p>
+            </div>
+
+            <div
+              class="glass-card p-6 rounded-2xl space-y-3 relative overflow-hidden group"
+            >
+              <div
+                class="p-3 rounded-xl bg-emerald-500/10 text-emerald-400 w-fit"
+              >
+                <i data-lucide="cpu" class="w-6 h-6"></i>
+              </div>
+              <h4 class="text-base font-bold text-white">
+                Quantum-Scale JS Data Manipulation
+              </h4>
+              <p class="text-xs text-slate-400 leading-relaxed">
+                Client-side data pipelines aggregating large datasets without
+                degrading DOM throughput.
+              </p>
+            </div>
+
+            <div
+              class="glass-card p-6 rounded-2xl space-y-3 relative overflow-hidden group"
+            >
+              <div
+                class="p-3 rounded-xl bg-yellow-500/10 text-yellow-400 w-fit"
+              >
+                <i data-lucide="bot" class="w-6 h-6"></i>
+              </div>
+              <h4 class="text-base font-bold text-white">
+                Applied Prompt Engineering & AI Synergy
+              </h4>
+              <p class="text-xs text-slate-400 leading-relaxed">
+                Generative LLM prompt chains and automated workflow integrations
+                to amplify efficiency.
+              </p>
+            </div>
+
+            <div
+              class="glass-card p-6 rounded-2xl space-y-3 relative overflow-hidden group"
+            >
+              <div class="p-3 rounded-xl bg-blue-500/10 text-blue-400 w-fit">
+                <i data-lucide="cloud-upload" class="w-6 h-6"></i>
+              </div>
+              <h4 class="text-base font-bold text-white">
+                Dynamic Full-Stack Cloud Deployment
+              </h4>
+              <p class="text-xs text-slate-400 leading-relaxed">
+                Unifying responsive UI design with scalable backend
+                microservices and databases.
+              </p>
+            </div>
+
+            <div
+              class="glass-card p-6 rounded-2xl space-y-3 relative overflow-hidden group"
+            >
+              <div class="p-3 rounded-xl bg-pink-500/10 text-pink-400 w-fit">
+                <i data-lucide="book-open" class="w-6 h-6"></i>
+              </div>
+              <h4 class="text-base font-bold text-white">
+                Immersive Narrative Lore Crafting
+              </h4>
+              <p class="text-xs text-slate-400 leading-relaxed">
+                Building multi-layered universe mythologies (like Antarctica
+                IDAI) to elevate user experience.
+              </p>
+            </div>
+
+            <div
+              class="glass-card p-6 rounded-2xl space-y-3 relative overflow-hidden group"
+            >
+              <div class="p-3 rounded-xl bg-red-500/10 text-red-400 w-fit">
+                <i data-lucide="binary" class="w-6 h-6"></i>
+              </div>
+              <h4 class="text-base font-bold text-white">
+                Math Olympiad Logical Architecture
+              </h4>
+              <p class="text-xs text-slate-400 leading-relaxed">
+                Optimization logic, discrete mathematical proofs, and
+                computational problem-solving patterns.
+              </p>
+            </div>
+
+            <div
+              class="glass-card p-6 rounded-2xl space-y-3 relative overflow-hidden group"
+            >
+              <div class="p-3 rounded-xl bg-teal-500/10 text-teal-400 w-fit">
+                <i data-lucide="keyboard" class="w-6 h-6"></i>
+              </div>
+              <h4 class="text-base font-bold text-white">Touch Typing Skill</h4>
+              <p class="text-xs text-slate-400 leading-relaxed">
+                Tactile keyboard mastery enabling rapid typing without visual
+                guidance.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 07. INTERACTIVE TECH STACK SHOWCASE -->
+      <section id="techstack" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="space-y-8">
+          <div class="text-center max-w-3xl mx-auto space-y-2">
+            <h2
+              class="text-xs font-mono uppercase tracking-widest text-cyan-400"
+            >
+              07. Interactive Directory
+            </h2>
+            <h3 class="text-3xl sm:text-4xl font-bold text-white">
+              Tech Stack Showcase
+            </h3>
+            <p class="text-slate-400 text-sm">
+              Filter through tools, frameworks, and operational platforms.
+            </p>
+          </div>
+
+          <!-- Filter Pills -->
+          <div class="flex flex-wrap justify-center gap-2" id="tech-filters">
+            <button
+              data-filter="all"
+              class="tech-filter-btn px-4 py-2 rounded-full text-xs font-mono active bg-cyan-500 text-black font-bold transition-all"
+            >
+              All Tools
+            </button>
+            <button
+              data-filter="design"
+              class="tech-filter-btn px-4 py-2 rounded-full text-xs font-mono bg-slate-900 border border-white/10 text-slate-300 hover:text-white transition-all"
+            >
+              Design & UI
+            </button>
+            <button
+              data-filter="frontend"
+              class="tech-filter-btn px-4 py-2 rounded-full text-xs font-mono bg-slate-900 border border-white/10 text-slate-300 hover:text-white transition-all"
+            >
+              Frontend
+            </button>
+            <button
+              data-filter="backend"
+              class="tech-filter-btn px-4 py-2 rounded-full text-xs font-mono bg-slate-900 border border-white/10 text-slate-300 hover:text-white transition-all"
+            >
+              Backend & Systems
+            </button>
+            <button
+              data-filter="data"
+              class="tech-filter-btn px-4 py-2 rounded-full text-xs font-mono bg-slate-900 border border-white/10 text-slate-300 hover:text-white transition-all"
+            >
+              AI & Data Science
+            </button>
+            <button
+              data-filter="devops"
+              class="tech-filter-btn px-4 py-2 rounded-full text-xs font-mono bg-slate-900 border border-white/10 text-slate-300 hover:text-white transition-all"
+            >
+              DevOps & Tools
+            </button>
+          </div>
+
+          <!-- Tech Grid -->
+          <div
+            class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4"
+            id="tech-grid"
+          >
+            <!-- Design -->
+            <div
+              class="tech-item design glass-card p-4 rounded-xl text-center space-y-2"
+            >
+              <div class="w-8 h-8 mx-auto text-orange-400">
+                <i data-lucide="figma" class="w-full h-full"></i>
+              </div>
+              <div class="text-sm font-bold text-white">Figma</div>
+              <div class="text-[10px] text-slate-400">UI/UX Prototyping</div>
+            </div>
+            <div
+              class="tech-item design glass-card p-4 rounded-xl text-center space-y-2"
+            >
+              <div class="w-8 h-8 mx-auto text-blue-400">
+                <i data-lucide="image" class="w-full h-full"></i>
+              </div>
+              <div class="text-sm font-bold text-white">Photoshop</div>
+              <div class="text-[10px] text-slate-400">Image Manipulation</div>
+            </div>
+            <div
+              class="tech-item design glass-card p-4 rounded-xl text-center space-y-2"
+            >
+              <div class="w-8 h-8 mx-auto text-orange-500">
+                <i data-lucide="pen-tool" class="w-full h-full"></i>
+              </div>
+              <div class="text-sm font-bold text-white">Illustrator</div>
+              <div class="text-[10px] text-slate-400">Vector Art</div>
+            </div>
+            <div
+              class="tech-item design glass-card p-4 rounded-xl text-center space-y-2"
+            >
+              <div class="w-8 h-8 mx-auto text-cyan-400">
+                <i data-lucide="layout" class="w-full h-full"></i>
+              </div>
+              <div class="text-sm font-bold text-white">Canva</div>
+              <div class="text-[10px] text-slate-400">Creative Assets</div>
+            </div>
+
+            <!-- Frontend -->
+            <div
+              class="tech-item frontend glass-card p-4 rounded-xl text-center space-y-2"
+            >
+              <div class="w-8 h-8 mx-auto text-cyan-400">
+                <i data-lucide="atom" class="w-full h-full"></i>
+              </div>
+              <div class="text-sm font-bold text-white">React</div>
+              <div class="text-[10px] text-slate-400">Component UI</div>
+            </div>
+            <div
+              class="tech-item frontend glass-card p-4 rounded-xl text-center space-y-2"
+            >
+              <div class="w-8 h-8 mx-auto text-white">
+                <i data-lucide="globe" class="w-full h-full"></i>
+              </div>
+              <div class="text-sm font-bold text-white">Next.js</div>
+              <div class="text-[10px] text-slate-400">Full-Stack SSR</div>
+            </div>
+            <div
+              class="tech-item frontend glass-card p-4 rounded-xl text-center space-y-2"
+            >
+              <div class="w-8 h-8 mx-auto text-emerald-400">
+                <i data-lucide="code-2" class="w-full h-full"></i>
+              </div>
+              <div class="text-sm font-bold text-white">Vue.js</div>
+              <div class="text-[10px] text-slate-400">Reactive Framework</div>
+            </div>
+            <div
+              class="tech-item frontend glass-card p-4 rounded-xl text-center space-y-2"
+            >
+              <div class="w-8 h-8 mx-auto text-red-500">
+                <i data-lucide="shield" class="w-full h-full"></i>
+              </div>
+              <div class="text-sm font-bold text-white">Angular</div>
+              <div class="text-[10px] text-slate-400">Enterprise Apps</div>
+            </div>
+            <div
+              class="tech-item frontend glass-card p-4 rounded-xl text-center space-y-2"
+            >
+              <div class="w-8 h-8 mx-auto text-yellow-400">
+                <i data-lucide="file-json" class="w-full h-full"></i>
+              </div>
+              <div class="text-sm font-bold text-white">JavaScript</div>
+              <div class="text-[10px] text-slate-400">ES6+ Core</div>
+            </div>
+            <div
+              class="tech-item frontend glass-card p-4 rounded-xl text-center space-y-2"
+            >
+              <div class="w-8 h-8 mx-auto text-blue-500">
+                <i data-lucide="file-code" class="w-full h-full"></i>
+              </div>
+              <div class="text-sm font-bold text-white">TypeScript</div>
+              <div class="text-[10px] text-slate-400">Typed JS</div>
+            </div>
+            <div
+              class="tech-item frontend glass-card p-4 rounded-xl text-center space-y-2"
+            >
+              <div class="w-8 h-8 mx-auto text-cyan-400">
+                <i data-lucide="palette" class="w-full h-full"></i>
+              </div>
+              <div class="text-sm font-bold text-white">Tailwind CSS</div>
+              <div class="text-[10px] text-slate-400">Utility Styling</div>
+            </div>
+            <div
+              class="tech-item frontend glass-card p-4 rounded-xl text-center space-y-2"
+            >
+              <div class="w-8 h-8 mx-auto text-purple-400">
+                <i data-lucide="box" class="w-full h-full"></i>
+              </div>
+              <div class="text-sm font-bold text-white">Three.js</div>
+              <div class="text-[10px] text-slate-400">3D WebGL</div>
+            </div>
+
+            <!-- Backend -->
+            <div
+              class="tech-item backend glass-card p-4 rounded-xl text-center space-y-2"
+            >
+              <div class="w-8 h-8 mx-auto text-blue-400">
+                <i data-lucide="terminal" class="w-full h-full"></i>
+              </div>
+              <div class="text-sm font-bold text-white">C++</div>
+              <div class="text-[10px] text-slate-400">High Performance</div>
+            </div>
+            <div
+              class="tech-item backend glass-card p-4 rounded-xl text-center space-y-2"
+            >
+              <div class="w-8 h-8 mx-auto text-emerald-400">
+                <i data-lucide="server" class="w-full h-full"></i>
+              </div>
+              <div class="text-sm font-bold text-white">FastAPI</div>
+              <div class="text-[10px] text-slate-400">Async Python API</div>
+            </div>
+            <div
+              class="tech-item backend glass-card p-4 rounded-xl text-center space-y-2"
+            >
+              <div class="w-8 h-8 mx-auto text-green-500">
+                <i data-lucide="cpu" class="w-full h-full"></i>
+              </div>
+              <div class="text-sm font-bold text-white">Node.js</div>
+              <div class="text-[10px] text-slate-400">JS Runtime</div>
+            </div>
+            <div
+              class="tech-item backend glass-card p-4 rounded-xl text-center space-y-2"
+            >
+              <div class="w-8 h-8 mx-auto text-blue-500">
+                <i data-lucide="database" class="w-full h-full"></i>
+              </div>
+              <div class="text-sm font-bold text-white">PostgreSQL</div>
+              <div class="text-[10px] text-slate-400">Relational DB</div>
+            </div>
+
+            <!-- AI & Data -->
+            <div
+              class="tech-item data glass-card p-4 rounded-xl text-center space-y-2"
+            >
+              <div class="w-8 h-8 mx-auto text-orange-500">
+                <i data-lucide="brain" class="w-full h-full"></i>
+              </div>
+              <div class="text-sm font-bold text-white">TensorFlow</div>
+              <div class="text-[10px] text-slate-400">Deep Learning</div>
+            </div>
+            <div
+              class="tech-item data glass-card p-4 rounded-xl text-center space-y-2"
+            >
+              <div class="w-8 h-8 mx-auto text-blue-400">
+                <i data-lucide="sparkles" class="w-full h-full"></i>
+              </div>
+              <div class="text-sm font-bold text-white">Gemini SDK</div>
+              <div class="text-[10px] text-slate-400">Generative AI</div>
+            </div>
+            <div
+              class="tech-item data glass-card p-4 rounded-xl text-center space-y-2"
+            >
+              <div class="w-8 h-8 mx-auto text-purple-400">
+                <i data-lucide="bar-chart-3" class="w-full h-full"></i>
+              </div>
+              <div class="text-sm font-bold text-white">Pandas</div>
+              <div class="text-[10px] text-slate-400">Data Analysis</div>
+            </div>
+
+            <!-- DevOps -->
+            <div
+              class="tech-item devops glass-card p-4 rounded-xl text-center space-y-2"
+            >
+              <div class="w-8 h-8 mx-auto text-orange-500">
+                <i data-lucide="git-branch" class="w-full h-full"></i>
+              </div>
+              <div class="text-sm font-bold text-white">Git</div>
+              <div class="text-[10px] text-slate-400">Version Control</div>
+            </div>
+            <div
+              class="tech-item devops glass-card p-4 rounded-xl text-center space-y-2"
+            >
+              <div class="w-8 h-8 mx-auto text-white">
+                <i data-lucide="github" class="w-full h-full"></i>
+              </div>
+              <div class="text-sm font-bold text-white">GitHub Actions</div>
+              <div class="text-[10px] text-slate-400">CI/CD Pipelines</div>
+            </div>
+            <div
+              class="tech-item devops glass-card p-4 rounded-xl text-center space-y-2"
+            >
+              <div class="w-8 h-8 mx-auto text-green-400">
+                <i data-lucide="bot" class="w-full h-full"></i>
+              </div>
+              <div class="text-sm font-bold text-white">Selenium</div>
+              <div class="text-[10px] text-slate-400">Web Automation</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 08. GITHUB STATS HUB -->
+      <section id="stats" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="space-y-8">
+          <div class="text-center max-w-3xl mx-auto space-y-2">
+            <h2
+              class="text-xs font-mono uppercase tracking-widest text-emerald-400"
+            >
+              08. Live Telemetry
+            </h2>
+            <h3 class="text-3xl sm:text-4xl font-bold text-white">
+              GitHub Statistics & Activity
+            </h3>
+            <p class="text-slate-400 text-sm">
+              Real-time commit telemetry and community engagement stats.
+            </p>
+          </div>
+
+          <!-- GitHub Stats Widgets -->
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div
+              class="glass-card p-6 rounded-2xl flex flex-col items-center justify-center text-center space-y-4"
+            >
+              <h4
+                class="text-sm font-mono text-cyan-400 flex items-center gap-2"
+              >
+                <i data-lucide="activity" class="w-4 h-4"></i> Overall Activity
+              </h4>
+              <img
+                src="https://github-readme-stats.shion.dev/api?username=rayaantasnim&theme=dark&hide_border=true&include_all_commits=true&count_private=true"
+                alt="GitHub Stats"
+                class="w-full rounded-xl"
+                loading="lazy"
+                onerror="
+                  this.onerror = null;
+                  this.src =
+                    'https://placehold.co/400x200/0f172a/00f2fe?text=GitHub+Stats+Widget';
+                "
+              />
+            </div>
+
+            <div
+              class="glass-card p-6 rounded-2xl flex flex-col items-center justify-center text-center space-y-4"
+            >
+              <h4
+                class="text-sm font-mono text-purple-400 flex items-center gap-2"
+              >
+                <i data-lucide="flame" class="w-4 h-4"></i> Streak Stats
+              </h4>
+              <img
+                src="https://streak-stats.demolab.com/?user=rayaantasnim&theme=dark&hide_border=true"
+                alt="Streak Stats"
+                class="w-full rounded-xl"
+                loading="lazy"
+                onerror="
+                  this.onerror = null;
+                  this.src =
+                    'https://placehold.co/400x200/0f172a/9d4edd?text=Streak+Stats+Widget';
+                "
+              />
+            </div>
+
+            <div
+              class="glass-card p-6 rounded-2xl flex flex-col items-center justify-center text-center space-y-4 md:col-span-2 lg:col-span-1"
+            >
+              <h4
+                class="text-sm font-mono text-emerald-400 flex items-center gap-2"
+              >
+                <i data-lucide="code" class="w-4 h-4"></i> Top Languages
+              </h4>
+              <img
+                src="https://github-readme-stats.shion.dev/api/top-langs/?username=rayaantasnim&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact"
+                alt="Top Languages"
+                class="w-full rounded-xl"
+                loading="lazy"
+                onerror="
+                  this.onerror = null;
+                  this.src =
+                    'https://placehold.co/400x200/0f172a/10b981?text=Top+Languages+Widget';
+                "
+              />
+            </div>
+          </div>
+
+          <!-- Community Counters -->
+          <div
+            class="glass-card p-6 rounded-2xl flex flex-wrap items-center justify-around gap-4 text-center"
+          >
+            <div>
+              <div class="text-2xl font-bold text-white font-mono">101</div>
+              <div class="text-xs text-slate-400 uppercase">Repositories</div>
+            </div>
+            <div class="w-px h-8 bg-white/10 hidden sm:block"></div>
+            <div>
+              <div class="text-2xl font-bold text-cyan-400 font-mono">1451</div>
+              <div class="text-xs text-slate-400 uppercase">
+                Codeforces Rating
+              </div>
+            </div>
+            <div class="w-px h-8 bg-white/10 hidden sm:block"></div>
+            <div>
+              <div class="text-2xl font-bold text-purple-400 font-mono">
+                Active
+              </div>
+              <div class="text-xs text-slate-400 uppercase">
+                Open Source Contributor
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 09. CONTACT & SOCIALS SECTION -->
+      <section
+        id="contact"
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16"
+      >
+        <div
+          class="glass-card p-8 sm:p-12 rounded-3xl border border-cyan-500/30 relative overflow-hidden"
+        >
+          <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <!-- Left Info -->
+            <div class="space-y-6">
+              <span
+                class="text-xs font-mono uppercase tracking-widest text-cyan-400"
+                >09. Transmission Channel</span
+              >
+              <h3 class="text-3xl sm:text-4xl font-extrabold text-white">
+                Let's Architect the Future Together
+              </h3>
+              <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                Interested in collaborating on open-source AI tools,
+                mathematical algorithms, or WebGL web applications? Send a
+                direct transmission.
+              </p>
+
+              <!-- Direct Email Card -->
+              <div
+                class="p-4 rounded-2xl bg-slate-900/90 border border-white/10 flex items-center justify-between"
+              >
+                <div class="flex items-center gap-3">
+                  <div class="p-2.5 rounded-xl bg-cyan-500/10 text-cyan-400">
+                    <i data-lucide="mail" class="w-5 h-5"></i>
+                  </div>
+                  <div>
+                    <span class="text-xs text-slate-400 font-mono"
+                      >Direct Email</span
+                    >
+                    <p class="text-sm font-mono font-bold text-white">
+                      rayaantasnim@gmail.com
+                    </p>
+                  </div>
+                </div>
+                <button
+                  id="copy-email-btn"
+                  onclick="copyEmail()"
+                  class="px-3 py-1.5 rounded-lg bg-white/10 hover:bg-white/20 text-xs font-mono text-cyan-400 transition-all flex items-center gap-1"
+                >
+                  <i data-lucide="copy" class="w-3.5 h-3.5"></i>
+                  <span id="copy-text">Copy</span>
+                </button>
+              </div>
+
+              <!-- Social Buttons -->
+              <div class="flex flex-wrap gap-3 pt-2">
+                <a
+                  href="mailto:rayaantasnim@gmail.com"
+                  class="px-4 py-2 rounded-xl bg-red-600/20 text-red-300 border border-red-500/30 hover:bg-red-600/30 text-xs font-mono flex items-center gap-2 transition-all"
+                >
+                  <i data-lucide="mail" class="w-4 h-4"></i> Gmail
+                </a>
+                <a
+                  href="https://github.com/rayaantasnim"
+                  target="_blank"
+                  rel="noopener"
+                  class="px-4 py-2 rounded-xl bg-slate-800 text-slate-200 border border-white/10 hover:bg-slate-700 text-xs font-mono flex items-center gap-2 transition-all"
+                >
+                  <i data-lucide="github" class="w-4 h-4"></i> GitHub
+                </a>
+                <a
+                  href="https://codeforces.com/profile/rayaantasnim"
+                  target="_blank"
+                  rel="noopener"
+                  class="px-4 py-2 rounded-xl bg-red-500/10 text-red-400 border border-red-500/20 hover:bg-red-500/20 text-xs font-mono flex items-center gap-2 transition-all"
+                >
+                  <i data-lucide="trophy" class="w-4 h-4"></i> Codeforces
+                </a>
+              </div>
+            </div>
+
+            <!-- Right Form Simulation -->
+            <form
+              id="contact-form"
+              onsubmit="handleFormSubmit(event)"
+              class="space-y-4 bg-slate-950/60 p-6 rounded-2xl border border-white/10"
+            >
+              <h4 class="text-lg font-bold text-white mb-2">Send Message</h4>
+              <div>
+                <label class="block text-xs font-mono text-slate-400 mb-1"
+                  >Your Name / Handle</label
+                >
+                <input
+                  type="text"
+                  required
+                  placeholder="e.g. Ada Lovelace"
+                  class="w-full px-4 py-2.5 rounded-xl bg-slate-900 border border-white/10 text-white text-sm focus:outline-none focus:border-cyan-400"
+                />
+              </div>
+              <div>
+                <label class="block text-xs font-mono text-slate-400 mb-1"
+                  >Your Email</label
+                >
+                <input
+                  type="email"
+                  required
+                  placeholder="ada@example.com"
+                  class="w-full px-4 py-2.5 rounded-xl bg-slate-900 border border-white/10 text-white text-sm focus:outline-none focus:border-cyan-400"
+                />
+              </div>
+              <div>
+                <label class="block text-xs font-mono text-slate-400 mb-1"
+                  >Message Transmission</label
+                >
+                <textarea
+                  rows="4"
+                  required
+                  placeholder="Discuss project, competitive programming, or collaboration..."
+                  class="w-full px-4 py-2.5 rounded-xl bg-slate-900 border border-white/10 text-white text-sm focus:outline-none focus:border-cyan-400"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="w-full py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-black font-bold text-sm hover:brightness-110 transition-all shadow-lg shadow-cyan-500/20 flex items-center justify-center gap-2"
+              >
+                <i data-lucide="send" class="w-4 h-4"></i> Dispatch Signal
+              </button>
+              <div
+                id="form-feedback"
+                class="hidden text-xs font-mono text-emerald-400 text-center pt-2"
+              >
+                ✓ Transmission logged! Email client directed.
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer
+      class="border-t border-white/10 bg-[#04060a] py-8 text-center text-xs font-mono text-slate-500 relative z-10"
+    >
+      <div
+        class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4"
+      >
+        <div>© 2026 Rayaan Tasnim • IDAI Universe Ecosystem</div>
+        <div class="flex items-center gap-4 text-slate-400">
+          <span>Mymensingh, Bangladesh</span>
+          <span>•</span>
+          <a href="#identity" class="hover:text-cyan-400 transition-colors"
+            >Back to Top ↑</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!-- MODALS FOR ECOSYSTEM DETAILS -->
+
+    <!-- IDAI Universe Modal -->
+    <div
+      id="idai-modal"
+      class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 modal-blur bg-black/60"
+    >
+      <div
+        class="glass-card max-w-2xl w-full p-6 sm:p-8 rounded-3xl border border-cyan-500/40 space-y-4 max-h-[90vh] overflow-y-auto"
+      >
+        <div
+          class="flex items-center justify-between border-b border-white/10 pb-4"
+        >
+          <div class="flex items-center gap-3">
+            <i data-lucide="cloud-lightning" class="w-6 h-6 text-cyan-400"></i>
+            <h3 class="text-xl font-bold text-white">
+              IDAI Universe Infrastructure
+            </h3>
+          </div>
+          <button
+            onclick="closeModal('idai-modal')"
+            class="p-1 text-slate-400 hover:text-white"
+          >
+            <i data-lucide="x" class="w-6 h-6"></i>
+          </button>
+        </div>
+        <p class="text-slate-300 text-sm leading-relaxed">
+          Rooted in Antarctica’s vast 14,200,000 km² expanse, IDAI Universe is
+          designed as an autonomous digital state machine. It orchestrates
+          serverless cognitive pipelines across distributed cloud nodes.
+        </p>
+        <div
+          class="space-y-2 text-xs font-mono text-slate-400 bg-slate-950 p-4 rounded-xl border border-white/10"
+        >
+          <div>• Zero-Trust Edge Routing Protocol</div>
+          <div>• Persistent Key-Value Ledger Control</div>
+          <div>• Sub-millisecond State Synchronization</div>
+        </div>
+        <div class="pt-4 flex justify-end">
+          <button
+            onclick="closeModal('idai-modal')"
+            class="px-4 py-2 rounded-xl bg-cyan-500 text-black font-bold text-xs"
+          >
+            Close Blueprint
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Olympiad Edge Modal -->
+    <div
+      id="olympiad-modal"
+      class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 modal-blur bg-black/60"
+    >
+      <div
+        class="glass-card max-w-2xl w-full p-6 sm:p-8 rounded-3xl border border-purple-500/40 space-y-4 max-h-[90vh] overflow-y-auto"
+      >
+        <div
+          class="flex items-center justify-between border-b border-white/10 pb-4"
+        >
+          <div class="flex items-center gap-3">
+            <i data-lucide="cpu" class="w-6 h-6 text-purple-400"></i>
+            <h3 class="text-xl font-bold text-white">
+              Olympiad Edge Specification
+            </h3>
+          </div>
+          <button
+            onclick="closeModal('olympiad-modal')"
+            class="p-1 text-slate-400 hover:text-white"
+          >
+            <i data-lucide="x" class="w-6 h-6"></i>
+          </button>
+        </div>
+        <p class="text-slate-300 text-sm leading-relaxed">
+          Engineered specifically for high-velocity competitive programming.
+          Orchestrates submission sandboxing and automated judge evaluation with
+          sub-2ms routing overhead.
+        </p>
+        <div
+          class="space-y-2 text-xs font-mono text-slate-300 bg-slate-950 p-4 rounded-xl border border-white/10"
+        >
+          <div>
+            <strong class="text-purple-400">Amethyst:</strong> Layer 7 Request
+            Load Balancer
+          </div>
+          <div>
+            <strong class="text-cyan-400">Sapphire:</strong> Isolated Sandbox
+            Dispatcher
+          </div>
+          <div>
+            <strong class="text-emerald-400">Aquamarine:</strong> Distributed
+            Raft Consensus Engine
+          </div>
+          <div>
+            <strong class="text-red-400">Emerald:</strong> Zero-trust mTLS
+            Firewall Isolation
+          </div>
+          <div>
+            <strong class="text-pink-400">Ruby:</strong> Real-time Telemetry
+            Streams
+          </div>
+          <div>
+            <strong class="text-yellow-400">Topaz:</strong> Hardware
+            Acceleration (FPGA/GPU)
+          </div>
+        </div>
+        <div class="pt-4 flex justify-end">
+          <button
+            onclick="closeModal('olympiad-modal')"
+            class="px-4 py-2 rounded-xl bg-purple-500 text-black font-bold text-xs"
+          >
+            Close Spec
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PrimeFactor Modal -->
+    <div
+      id="primefactor-modal"
+      class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 modal-blur bg-black/60"
+    >
+      <div
+        class="glass-card max-w-2xl w-full p-6 sm:p-8 rounded-3xl border border-yellow-500/40 space-y-4 max-h-[90vh] overflow-y-auto"
+      >
+        <div
+          class="flex items-center justify-between border-b border-white/10 pb-4"
+        >
+          <div class="flex items-center gap-3">
+            <i data-lucide="calculator" class="w-6 h-6 text-yellow-400"></i>
+            <h3 class="text-xl font-bold text-white">PrimeFactor.app Proofs</h3>
+          </div>
+          <button
+            onclick="closeModal('primefactor-modal')"
+            class="p-1 text-slate-400 hover:text-white"
+          >
+            <i data-lucide="x" class="w-6 h-6"></i>
+          </button>
+        </div>
+        <p class="text-slate-300 text-sm leading-relaxed">
+          Designed to train competitive mathematicians in rapid mental prime
+          factorization. Operates 100% on client-side ECMAScript Modules with
+          zero backend dependency.
+        </p>
+        <div
+          class="space-y-2 text-xs font-mono text-slate-300 bg-slate-950 p-4 rounded-xl border border-white/10"
+        >
+          <div>• Deterministic Miller-Rabin Primality Testing</div>
+          <div>• Pollard's Rho Sub-linear Prime Factorization</div>
+          <div>• Dynamic ELO Rating Calculation & Speed Trophies</div>
+        </div>
+        <div class="pt-4 flex justify-end">
+          <button
+            onclick="closeModal('primefactor-modal')"
+            class="px-4 py-2 rounded-xl bg-yellow-500 text-black font-bold text-xs"
+          >
+            Close Details
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Guideline Modal -->
+    <div
+      id="guideline-modal"
+      class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 modal-blur bg-black/60"
+    >
+      <div
+        class="glass-card max-w-2xl w-full p-6 sm:p-8 rounded-3xl border border-cyan-500/40 space-y-4 max-h-[90vh] overflow-y-auto"
+      >
+        <div
+          class="flex items-center justify-between border-b border-white/10 pb-4"
+        >
+          <div class="flex items-center gap-3">
+            <i data-lucide="book-open" class="w-6 h-6 text-cyan-400"></i>
+            <h3 class="text-xl font-bold text-white">
+              Novice Onboarding Roadmap
+            </h3>
+          </div>
+          <button
+            onclick="closeModal('guideline-modal')"
+            class="p-1 text-slate-400 hover:text-white"
+          >
+            <i data-lucide="x" class="w-6 h-6"></i>
+          </button>
+        </div>
+        <p class="text-slate-300 text-sm leading-relaxed">
+          A structured vector created by Rayaan to streamline onboarding for
+          beginner programmers into competitive programming mastery.
+        </p>
+        <ol
+          class="list-decimal list-inside space-y-2 text-xs font-mono text-slate-300 bg-slate-950 p-4 rounded-xl border border-white/10"
+        >
+          <li>Automated VS Code C++ & Python workstation config</li>
+          <li>GCC / G++ local compiler flags and fast I/O setup</li>
+          <li>Online Judge setup (Codeforces, AtCoder, VJudge)</li>
+          <li>Basic Data Structure mastery (Vectors, Maps, Sets)</li>
+        </ol>
+        <div class="pt-4 flex justify-end">
+          <button
+            onclick="closeModal('guideline-modal')"
+            class="px-4 py-2 rounded-xl bg-cyan-500 text-black font-bold text-xs"
+          >
+            Close Roadmap
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- CLIENT INTERACTIVE SCRIPTS -->
+    <script src="script.js"></script>
+  </body>
+</html>
