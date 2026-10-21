@@ -40,7 +40,7 @@
 
 <section align="center">
   <h2>03. ⚡ Frameworks & Libraries</h2>
-  <p><b>Cloud:</b> React, Next.js, Vue.js, Node.js, Express.js, FastAPI, Three.js, Tailwind CSS, Bootstrap, GSAP, WebGL, P5.js</p>
+  <p><b>Cloud:</b> React, Next.js, Vue.js, Node.js, Angular, Express.js, FastAPI, Three.js, Tailwind CSS, Bootstrap, GSAP, WebGL, P5.js</p>
   <blockquote>
     Frameworks and libraries expand the creative frontier.  
     React and Vue power reactive interfaces, Next.js streamlines performance, Node.js and Express anchor backend logic,  
