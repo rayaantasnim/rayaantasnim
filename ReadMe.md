@@ -169,7 +169,188 @@
 ## 🌐 Socials:
 (rayaantasnim@gmail.com) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rayaantasnim@gmail.com) 
 
- 
+ ### 🎨 Design & UI/UX
+
+![Adobe Illustrator](https://shields.io)  
+Vector graphics tool for logos and illustrations.  
+Industry standard for design professionals.  
+
+![Adobe Photoshop](https://shields.io)  
+Image editing and digital art creation.  
+Used for photo manipulation and creative design.  
+
+![Canva](https://shields.io)  
+Quick design tool with templates.  
+Accessible for non‑designers and content creators.  
+
+![Figma](https://shields.io)  
+Collaborative UI/UX design platform.  
+Supports prototyping and team workflows.  
+
+### 💻 Frontend Development
+
+![Angular](https://shields.io)  
+Component‑based framework for building scalable web applications.  
+Provides a robust suite of tools for enterprise‑grade frontend development.  
+
+![Bootstrap](https://shields.io)  
+Popular CSS framework with prebuilt components.  
+Speeds up responsive web design.  
+
+![CSS3](https://shields.io)  
+Defines the look and feel of web pages with responsive layouts, animations, and styling.  
+Essential for modern UI/UX design.  
+
+![Green Sock](https://shields.io)  
+Animation platform for high‑performance motion design.  
+Used in interactive websites and creative projects.  
+
+![HTML5](https://shields.io)  
+Provides semantic structure for web pages.  
+Supports multimedia, forms, and accessibility features.  
+
+![JavaScript](https://shields.io)  
+Core scripting language of the web, enabling interactivity and dynamic content.  
+Used across front‑end, back‑end, and full‑stack development.  
+
+![Next JS](https://shields.io)  
+Full‑stack React framework with SSR and routing.  
+Perfect for SEO‑friendly and performant apps.  
+
+![P5js](https://shields.io)  
+Creative coding library for visuals and interaction.  
+Great for art, design, and education projects.  
+
+![React](https://shields.io)  
+Component‑based library for building dynamic UIs.  
+Backbone of many modern web apps.  
+
+![TailwindCSS](https://shields.io)  
+Utility‑first CSS framework for rapid styling.  
+Enables responsive, modern designs with minimal effort.  
+
+![Three js](https://shields.io)  
+JavaScript library for 3D graphics in the browser.  
+Used for interactive visualizations and WebGL rendering.  
+
+![TypeScript](https://shields.io)  
+Strongly‑typed superset of JavaScript for scalable applications.  
+Improves maintainability and reduces runtime errors.  
+
+![Vue.js](https://shields.io)  
+Lightweight reactive framework for building user interfaces.  
+Great for fast, flexible front‑end development.  
+
+![WebGL](https://shields.io)  
+Low‑level graphics API for rendering 3D in browsers.  
+Enables immersive visual experiences.  
+
+### ⚙️ Backend & Systems
+
+![C++](https://shields.io)  
+Powerful language for system programming, performance‑critical applications, and competitive programming.  
+Widely used in game engines, operating systems, and algorithmic challenges.  
+
+![Express.js](https://shields.io)  
+Minimalist backend framework for APIs.  
+Simplifies server development with Node.js.  
+
+![FastAPI](https://shields.io)  
+High‑performance Python web framework.  
+Perfect for building modern, fast APIs.  
+
+![NodeJS](https://shields.io)  
+Server‑side JavaScript runtime.  
+Ideal for scalable APIs and real‑time applications.  
+
+![Python](https://shields.io)  
+Versatile language for automation, data science, and AI.  
+Known for readability and rapid prototyping.  
+
+![Uvicorn](https://shields.io)  
+Lightning‑fast ASGI server for Python apps.  
+Optimized for concurrency and real‑time services.  
+
+### 📊 Backend‑as‑a‑Service & Databases
+
+![Firebase](https://shields.io)  
+Google’s platform for app development.  
+Provides hosting, authentication, and real‑time databases.  
+
+![PostgreSQL](https://shields.io)  
+Advanced open‑source relational database.  
+Trusted for scalability and complex queries.  
+
+![Supabase](https://shields.io)  
+Open‑source backend with database and auth.  
+Alternative to Firebase for modern apps.  
+
+### 🤖 AI, Data Science & Specialist Tech
+
+![Climate Tech](https://shields.io)  
+Innovations tackling environmental challenges.  
+Drives sustainability and carbon reduction solutions.  
+
+![Cryptography](https://shields.io)  
+Mathematical methods securing digital data.  
+Foundation for encryption, privacy, and trust online.  
+
+![Google Gemini SDK](https://shields.io)  
+Toolkit for integrating Google’s Gemini AI models.  
+Enables advanced generative AI features in apps.  
+
+![Matplotlib](https://shields.io)  
+Visualization library for Python.  
+Creates charts, plots, and graphs.  
+
+![NumPy](https://shields.io)  
+Numerical computing library for Python.  
+Handles arrays, matrices, and scientific calculations.  
+
+![Pandas](https://shields.io)  
+Python library for data manipulation and analysis.  
+Essential for data science workflows.  
+
+![Planetary Telemetry](https://shields.io)  
+Systems for monitoring spacecraft and satellites.  
+Critical for space exploration and mission control.  
+
+![TensorFlow](https://shields.io)  
+Open‑source platform for machine learning and deep learning.  
+Used for training and deploying complex neural network models.  
+
+### 🛠️ DevOps, Testing & Development Tools
+
+![Git](https://shields.io)  
+Version control system for tracking code changes.  
+Enables collaboration and branching.  
+
+![GitHub](https://shields.io)  
+Code hosting and collaboration platform.  
+Supports open‑source and enterprise projects.  
+
+![GitHub Actions](https://shields.io)  
+CI/CD automation workflows on GitHub.  
+Helps streamline testing and deployment.  
+
+![Prettier](https://shields.io)  
+Code formatter for consistent style.  
+Improves readability and collaboration.  
+
+![Selenium](https://shields.io)  
+Framework for browser automation and testing.  
+Used in QA and scraping tasks.  
+
+![Vercel](https://shields.io)  
+Deployment platform for modern web projects.  
+Optimized for Next.js and serverless hosting.  
+
+### 📁 Personal Showcase
+
+![Portfolio](https://shields.io)  
+Personal showcase of projects and achievements.  
+Highlights skills, creations, and career journey.  
+
 
 
 # 📊 GitHub Stats:
