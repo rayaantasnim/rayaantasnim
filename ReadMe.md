@@ -411,6 +411,9 @@ Serves as a professional identity hub.
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=rayaantasnim&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ---
-[![](https://komarev.com/ghpvc/?username=rayaantasnim&icon=0&color=0)](https://visitcount.itsvg.in)
+### Profile Views
+
+[![Profile Views](https://komarev.com/ghpvc/?username=rayaantasnim&style=for-the-badge&color=0e75b6&label=VISITORS)](https://visitcount.itsvg.in)
+
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
