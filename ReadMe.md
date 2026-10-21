@@ -51,7 +51,7 @@
 
 <section align="center">
   <h2>04. ☁️ Platforms & Services</h2>
-  <p><b>Cloud:</b> Vercel, Supabase</p>
+  <p><b>Cloud:</b> Vercel, Supabase, Firebase</p>
   <blockquote>
     Platforms like Vercel and Supabase simplify the complex.  
     Vercel ensures frictionless deployment pipelines, while Supabase provides real-time database infrastructure.  
