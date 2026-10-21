@@ -1,3 +1,83 @@
+# ⚡ Rayaan Tasnim
+
+![Founder Badge](https://img.shields.io/badge/Founder-IDAI%20Universe-blue?style=for-the-badge&logo=rocket)  
+![Full-Stack Badge](https://img.shields.io/badge/Full--Stack-Prodigy-green?style=for-the-badge&logo=javascript)  
+![Math Badge](https://img.shields.io/badge/Math-Enthusiast-orange?style=for-the-badge&logo=python)  
+![Competitive Badge](https://img.shields.io/badge/Competitive-Programmer-red?style=for-the-badge&logo=codeforces)  
+
+---
+
+## 👤 Identity
+**Age:** 13  
+**City:** Mymensingh, Bangladesh  
+**Codeforces Rating:** 1451  
+
+> *“More than what you imagine.”*  
+> *Inspiring Trust Through Innovation*  
+
+---
+
+## 🌍 Overview
+Rayaan Tasnim is a **13-year-old full-stack programmer, math enthusiast, and tech creator** from Mymensingh, Bangladesh.  
+He is known for architecting **web applications**, **math-training platforms** like *PrimeFactor.app*, and advanced developer ecosystems under his sovereign digital mothership, **IDAI Universe**.
+
+---
+
+## 🚀 Mission
+To blend **science, creativity, and faith** into innovations that inspire humanity.
+
+---
+
+## 🔑 Platforms & Ecosystems
+
+### 🏔️ IDAI Universe
+![Empire Badge](https://img.shields.io/badge/Digital%20Empire-Antarctica-lightblue?style=flat-square&logo=cloud)  
+A **technological superpower** rooted in Antarctica’s 1,42,00,000 km² terrain.  
+Coordinates **distributed state machines**, **serverless execution algorithms**, and **autonomous cognitive pipelines**.  
+Ensures **zero-trust cloud synchronization**, **hyper-fast structural velocity**, and **absolute persistence layer control** across a unified, infinitely scalable empire.
+
+---
+
+### ⚡ Olympiad Edge
+![Contest Badge](https://img.shields.io/badge/High--Velocity-Contest%20Layer-purple?style=flat-square&logo=fastapi)  
+A **request orchestration layer** engineered for competitive programming supremacy.  
+- Layer 7 load balancing via **Amethyst**  
+- Sandbox task dispatching via **Sapphire**  
+- Distributed Raft consensus via **Aquamarine**  
+- Zero-trust mTLS firewall isolation via **Emerald**  
+- Telemetry streams via **Ruby**  
+- Hardware-level verification via **Topaz FPGA/GPU**  
+Maintains **sub-2ms routing overhead** for absolute contest precision.
+
+---
+
+### 🧮 PrimeFactor.app
+![Math Badge](https://img.shields.io/badge/Prime-Factorization%20Lab-yellow?style=flat-square&logo=calculator)  
+A **privacy-first training laboratory** for competitive mathematics.  
+- Timed **10-question drills** with strict countdowns  
+- Client-side **Miller-Rabin** & **Pollard’s Rho** algorithms  
+- Zero server dependencies via **ECMAScript Modules**  
+- Tracks **ELO-style ratings**, solving latencies, and unlocks honors like *Grandmaster* & *Sub-Second Lightning*.  
+
+---
+
+### 📘 Guideline for Novice Programmers
+![Roadmap Badge](https://img.shields.io/badge/Roadmap-Beginner%20to%20Pro-cyan?style=flat-square&logo=visualstudiocode)  
+A **step-by-step onboarding vector** guiding raw beginners to competitive programming mastery.  
+- Automated **VS Code workstation setup**  
+- Local compiler configuration & interactive terminal execution  
+- Repository control & seamless judge interfacing  
+Empowers novices to achieve **structural comprehension**, **self-correction**, and **contest readiness** with zero friction.
+
+---
+
+## 🏆 Vision
+To **engineer sovereign ecosystems** where **mathematics, programming, and innovation** converge into a **global digital empire** inspiring trust, velocity, and resilience.
+
+<br><br>
+
+
+
 # 💫 About Me:
 🔭 I'm currently working on expanding the IDAI Universe ecosystem and building interactive web platforms.<br><br>
 
