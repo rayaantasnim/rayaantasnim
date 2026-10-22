@@ -1,3 +1,9 @@
+<br />
+
+<img src="https://images.pexels.com/photos/4218883/pexels-photo-4218883.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Rayaan Nexus Core Telemetry Banner" width="100%" height="320px" style="object-fit: cover; border-radius: 8px;" />
+
+</div>
+
 # ⚡ Rayaan Tasnim
 
 ![Founder Badge](https://img.shields.io/badge/Founder-IDAI%20Universe-blue?style=for-the-badge&logo=rocket) ![Olympiad Edge Badge](https://img.shields.io/badge/Olympiad%20Edge-High--Velocity%20Contest%20Layer-purple?style=for-the-badge&logo=fastapi) ![Full-Stack Badge](https://img.shields.io/badge/Full--Stack-Prodigy-green?style=for-the-badge&logo=javascript) ![Math Badge](https://img.shields.io/badge/Math-Enthusiast-orange?style=for-the-badge&logo=python) ![Competitive Badge](https://img.shields.io/badge/Competitive-Programmer-red?style=for-the-badge&logo=codeforces)
@@ -491,7 +497,7 @@ Serves as a professional identity hub.
 
 ### 📊 GitHub Statistics
 
-[![Profile Views](https://komarev.com/ghpvc/?username=rayaantasnim&style=for-the-badge&color=0e75b6&label=VISITORS)](https://visitcount.itsvg.in)
+[![Profile Views](https://komarev.com/ghpvc/?username=rayaantasnim&style=for-the-badge&color=0e75b6&label=VISITORS)](https://github.com/rayaantasnim)
 [![Followers](https://img.shields.io/github/followers/rayaantasnim?style=for-the-badge&color=brightgreen&label=FOLLOWERS)](https://github.com/rayaantasnim?tab=followers)
 [![Stars](https://img.shields.io/github/stars/rayaantasnim?style=for-the-badge&color=yellow&label=STARS)](https://github.com/rayaantasnim?tab=repositories)
 [![Repos](https://img.shields.io/badge/REPOSITORIES-110-blue?style=for-the-badge)](https://github.com/rayaantasnim?tab=repositories)
