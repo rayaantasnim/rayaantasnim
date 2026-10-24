@@ -12,7 +12,7 @@
 ## 👤 Identity
 **Age:** 13  
 **City:** Mymensingh, Bangladesh  
-**Codeforces Rating:** 1451  
+**Codeforces Rating:** 1655  
 
 > *“More than what you imagine.”*  
 > *Inspiring Trust Through Innovation*  
@@ -249,7 +249,17 @@ To **engineer sovereign ecosystems** where **mathematics, programming, and innov
 
 
 ## 🌐 Socials:
-(rayaantasnim@gmail.com) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rayaantasnim@gmail.com) 
+<p align="center">
+  <a href="mailto:rayaantasnim@gmail.com">
+    <img src="https://img.shields.io/badge/📧_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://rayaantasnim.github.io/Rayaan-Tasnim/" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_Website-00C2FF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"/>
+  </a>
+  <a href="https://github.com/rayaantasnim" target="_blank">
+    <img src="https://img.shields.io/badge/💻_GitHub-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+</p>
 
 <br><br>
 
