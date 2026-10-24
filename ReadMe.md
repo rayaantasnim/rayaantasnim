@@ -1,5 +1,4 @@
-<br />
-
+<div>
 <img src="https://images.pexels.com/photos/4218883/pexels-photo-4218883.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Rayaan Nexus Core Telemetry Banner" width="100%" height="320px" style="object-fit: cover; border-radius: 8px;" />
 
 </div>
@@ -497,10 +496,10 @@ Serves as a professional identity hub.
 
 ### 📊 GitHub Statistics
 
-[![Profile Views](https://komarev.com/ghpvc/?username=rayaantasnim&style=for-the-badge&color=0e75b6&label=VISITORS)](https://github.com/rayaantasnim)
-[![Followers](https://img.shields.io/github/followers/rayaantasnim?style=for-the-badge&color=brightgreen&label=FOLLOWERS)](https://github.com/rayaantasnim?tab=followers)
-[![Stars](https://img.shields.io/github/stars/rayaantasnim?style=for-the-badge&color=yellow&label=STARS)](https://github.com/rayaantasnim?tab=repositories)
-[![Repos](https://img.shields.io/badge/REPOSITORIES-110-blue?style=for-the-badge)](https://github.com/rayaantasnim?tab=repositories)
-
+<p align="center">
+  <a href="https://github.com/rayaantasnim"><img src="https://komarev.com/ghpvc/?username=rayaantasnim&label=PROFILE+VIEWS&color=0e75b6&style=for-the-badge" alt="Profile Views"/></a>
+  <a href="https://github.com/rayaantasnim?tab=followers"><img src="https://img.shields.io/github/followers/rayaantasnim?label=FOLLOWERS&style=for-the-badge&color=brightgreen" alt="Followers"/></a>
+  <a href="https://github.com/rayaantasnim?tab=repositories"><img src="https://img.shields.io/github/stars/rayaantasnim?label=STARS&style=for-the-badge&color=yellow" alt="Stars"/></a>
+</p>
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
