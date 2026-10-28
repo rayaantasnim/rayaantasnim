@@ -274,236 +274,141 @@ To **engineer sovereign ecosystems** where **mathematics, programming, and innov
 
 <br><br>
 
-# 🚀 Tech Stack Showcase
 
-## 🎨 Design & UI/UX
 
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)  
-Collaborative UI/UX design platform.  
-Supports prototyping, wireframing, and team workflows.  
-Widely used for modern product design.
+## 🛠️ Tech Stack
 
-![Adobe Photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)  
-Industry‑leading tool for image editing.  
-Used for photo manipulation, digital art, and creative design.  
-Essential for professional designers.
+<table width="100%">
+<tr>
 
-![Adobe Illustrator](https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=white)  
-Vector graphics editor for logos and illustrations.  
-Provides precision tools for scalable artwork.  
-Standard in branding and graphic design.
+<td width="32%" valign="top">
 
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)  
-Accessible design tool with templates.  
-Great for quick social media graphics.  
-Popular among non‑designers and content creators.
+### 🎨 Design & UI/UX
 
----
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
-## 💻 Frontend Development
+![Adobe Photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)
 
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)  
-Component‑based library for dynamic UIs.  
-Backbone of many modern web apps.  
-Supports reusable and scalable design patterns.
+![Adobe Illustrator](https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=white)
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)  
-Full‑stack React framework with SSR.  
-Optimized for SEO‑friendly and performant apps.  
-Includes routing, API handling, and serverless support.
+![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
 
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)  
-Lightweight reactive framework for UIs.  
-Flexible and beginner‑friendly.  
-Ideal for fast prototyping and modular apps.
+</td>
 
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)  
-Enterprise‑grade frontend framework.  
-Provides strong typing, tooling, and scalability.  
-Used for large‑scale web applications.
+<td width="32%" valign="top">
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
-Core scripting language of the web.  
-Enables interactivity and dynamic content.  
-Used across frontend, backend, and full‑stack.
+### 💻 Frontend Development
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)  
-Superset of JavaScript with static typing.  
-Improves maintainability and reduces runtime errors.  
-Widely adopted in scalable applications.
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
-Defines semantic structure of web pages.  
-Supports multimedia, forms, and accessibility.  
-Foundation of modern web development.
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
-Controls styling and layout of web pages.  
-Supports responsive design and animations.  
-Essential for UI/UX design.
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
 
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)  
-Utility‑first CSS framework.  
-Speeds up styling with prebuilt classes.  
-Perfect for responsive, modern designs.
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)  
-Popular CSS framework with components.  
-Simplifies responsive design.  
-Great for quick prototyping.
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)  
-JavaScript library for 3D graphics.  
-Enables WebGL rendering in browsers.  
-Used for interactive visualizations.
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
-![WebGL](https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white)  
-Low‑level graphics API for browsers.  
-Supports immersive 3D experiences.  
-Foundation for advanced visual rendering.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
-![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black)  
-High‑performance animation library.  
-Used for motion design and interactivity.  
-Popular in creative web projects.
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-![P5.js](https://img.shields.io/badge/P5.js-ED225D?style=for-the-badge&logo=p5dotjs&logoColor=white)  
-Creative coding library.  
-Great for visuals, art, and education.  
-Simplifies interactive design projects.
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
----
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-## ⚙️ Backend & Systems
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  
-Versatile language for automation, AI, and data science.  
-Known for readability and rapid prototyping.  
-Widely used in backend and scientific computing.
+![WebGL](https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white)
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)  
-High‑performance Python web framework.  
-Perfect for modern APIs.  
-Optimized for speed and concurrency.
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black)
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)  
-Server‑side JavaScript runtime.  
-Ideal for scalable APIs and real‑time apps.  
-Backbone of many modern backends.
+![P5.js](https://img.shields.io/badge/P5.js-ED225D?style=for-the-badge&logo=p5dotjs&logoColor=white)
 
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)  
-Minimalist backend framework.  
-Simplifies API development with Node.js.  
-Lightweight and flexible.
+</td>
 
-![Uvicorn](https://img.shields.io/badge/Uvicorn-FF6F00?style=for-the-badge&logo=python&logoColor=white)  
-ASGI server for Python apps.  
-Optimized for concurrency and real‑time services.  
-Often paired with FastAPI.
+<td width="32%" valign="topd & Systems
 
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)  
-Powerful system programming language.  
-Used in game engines, OS, and performance‑critical apps.  
-Popular in competitive programming.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
----
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 
-## 📊 Databases & BaaS
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)  
-Advanced relational database.  
-Trusted for scalability and complex queries.  
-Open‑source and enterprise‑ready.
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)  
-Google’s app development platform.  
-Provides hosting, authentication, and real‑time DB.  
-Great for mobile and web apps.
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)  
-Open‑source Firebase alternative.  
-Includes database, auth, and APIs.  
-Modern choice for full‑stack apps.
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 
----
+![Uvicorn](https://img.shields.io/badge/Uvicorn-FF6F00?style=for-the-badge&logo=python&logoColor=white)
 
-## 🤖 AI & Data Science
+</td>
 
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white)  
-Visualization library for Python.  
-Creates charts, plots, and graphs with ease.  
-Widely used in data analysis and scientific reporting.
+</tr>
 
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)  
-Numerical computing library for Python.  
-Handles arrays, matrices, and mathematical operations.  
-Foundation for scientific computing and ML workflows.
+<tr>
 
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)  
-Data manipulation and analysis library.  
-Provides powerful tools for tabular data.  
-Essential for data science pipelines and preprocessing.
+<td width="32%" valign="top">
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)  
-Open‑source ML and deep learning platform.  
-Used for training and deploying neural networks.  
-Supports large‑scale AI applications.
+### ☁️ Platforms & Databases
 
-![Google Gemini SDK](https://img.shields.io/badge/Gemini%20SDK-4285F4?style=for-the-badge&logo=google&logoColor=white)  
-Toolkit for integrating Google’s Gemini AI models.  
-Enables advanced generative AI features in apps.  
-Brings cutting‑edge AI into production systems.
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-![Cryptography](https://img.shields.io/badge/Cryptography-000000?style=for-the-badge&logo=keybase&logoColor=white)  
-Secures digital data with mathematical methods.  
-Foundation for encryption, privacy, and trust online.  
-Critical for cybersecurity and secure communications.
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
-![Climate Tech](https://img.shields.io/badge/Climate%20Tech-228B22?style=for-the-badge&logo=leaflet&logoColor=white)  
-Innovations tackling environmental challenges.  
-Focuses on sustainability and carbon reduction.  
-Supports global climate resilience efforts.
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
-![Planetary Telemetry](https://img.shields.io/badge/Planetary%20Telemetry-1E90FF?style=for-the-badge&logo=satellite&logoColor=white)  
-Systems for monitoring spacecraft and satellites.  
-Critical for space exploration and mission control.  
-Provides real‑time data for scientific research.
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
----
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-## 🛠️ DevOps, Testing & Tools
+</td>
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)  
-Version control system for tracking code changes.  
-Enables collaboration, branching, and merging.  
-Essential for modern software development.
+<td width="32%" valign="top">
 
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)  
-Code hosting and collaboration platform.  
-Supports open‑source and enterprise projects.  
-Integrates with CI/CD and project management.
+### 🤖 AI & Automation
 
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)  
-Automation workflows for CI/CD.  
-Streamlines testing, deployment, and integration.  
-Fully integrated with GitHub repositories.
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)  
-Deployment platform for modern web apps.  
-Optimized for Next.js and serverless hosting.  
-Provides fast, scalable deployments.
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)  
-Framework for browser automation and testing.  
-Used in QA, scraping, and regression testing.  
-Supports multiple browsers and platforms.
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
-![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black)  
-Code formatter for consistent style.  
-Improves readability and collaboration.  
-Supports multiple languages and frameworks.
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white)
 
----
+![TensorFlow.js](https://img.shields.io/badge/TensorFlow.js-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+
+![Gemini SDK](https://img.shields.io/badge/Gemini_SDK-4285F4?style=for-the-badge&logo=google&logoColor=white)
+
+![NLP](https://img.shields.io/badge/NLP-7C3AED?style=for-the-badge)
+
+![Computer Vision](https://img.shields.io/badge/Computer_Vision-DC2626?style=for-the-badge)
+</td>
+
+<td width="32%" valign="top">
+
+### 🛠️ DevOps & Tools
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+
+![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black)
+
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+</td>
+
+</tr>
+</table>
 
 ## 📁 Personal Showcase
 
@@ -511,9 +416,7 @@ Supports multiple languages and frameworks.
 Personal showcase of projects and achievements.  
 Highlights skills, creations, and career journey.  
 Serves as a professional identity hub.
-
-
-<br>
+<br><br>
 
 # 📊 GitHub Stats:
 
