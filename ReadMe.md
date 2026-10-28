@@ -297,7 +297,7 @@ To **engineer sovereign ecosystems** where **mathematics, programming, and innov
 
 <td width="32%" valign="top">
 
-### 💻 Frontend Development
+### 💻 Front-end Development
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 
