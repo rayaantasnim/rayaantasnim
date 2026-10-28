@@ -329,7 +329,10 @@ To **engineer sovereign ecosystems** where **mathematics, programming, and innov
 
 </td>
 
-<td width="32%" valign="topd & Systems
+<td width="32%" valign="top">
+
+### 💻 Back End System
+
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
