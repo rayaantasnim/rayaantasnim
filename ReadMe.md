@@ -433,16 +433,11 @@ Serves as a professional identity hub.
 ### 📊 GitHub Statistics
 
 <p align="center">
-  <a href="https://github.com/rayaantasnim">
-    <img src="https://komarev.com/ghpvc/?username=rayaantasnim&label=PROFILE+VIEWS&color=0e75b6&style=for-the-badge" alt="Profile Views"/>
-  </a>
-  <a href="https://github.com/rayaantasnim?tab=followers">
-    <img src="https://img.shields.io/github/followers/rayaantasnim?label=FOLLOWERS&style=for-the-badge&color=brightgreen" alt="Followers"/>
-  </a>
-  <a href="https://github.com/rayaantasnim?tab=repositories">
-    <img src="https://img.shields.io/badge/TOP_LANGUAGES-VIEW-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Top Languages"/>
-  </a>
+  <a href="https://github.com/rayaantasnim"><img src="https://komarev.com/ghpvc/?username=rayaantasnim&label=PROFILE+VIEWS&color=0e75b6&style=for-the-badge" alt="Profile Views"/></a>
+  <a href="https://github.com/rayaantasnim?tab=followers"><img src="https://img.shields.io/github/followers/rayaantasnim?label=FOLLOWERS&style=for-the-badge&color=brightgreen" alt="Followers"/></a>
+  <a href="https://github.com/rayaantasnim?tab=repositories"><img src="https://img.shields.io/github/stars/rayaantasnim?label=STARS&style=for-the-badge&color=yellow" alt="Stars"/></a>
 </p>
+
 
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
