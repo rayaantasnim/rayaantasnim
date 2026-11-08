@@ -425,8 +425,7 @@ Serves as a professional identity hub.
 
 | | | |
 |:-:|:-:|:-:|
-| <img src="https://github-readme-stats.shion.dev/api?username=rayaantasnim&theme=default&hide_border=false&border_radius=15&include_all_commits=true&count_private=true&bg_color=ffffff&title_color=2563eb&text_color=374151&icon_color=3b82f6&border_color=d1d5db" height="180em"/> | <img src="https://streak-stats.demolab.com?user=rayaantasnim&theme=default&hide_border=false&border_radius=15&background=FFFFFF&ring=3B82F6&fire=2563EB&currStreakLabel=2563EB&sideNums=374151&currStreakNum=111827&dates=6B7280&sideLabels=374151&border=D1D5DB" height="180em"/> | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rayaantasnim&layout=compact&hide_border=false&border_radius=15&bg_color=ffffff&title_color=2563eb&text_color=374151&border_color=d1d5db&card_width=320" height="180em"/> |
-
+| <img src="https://github-readme-stats.shion.dev/api?username=rayaantasnim&theme=default&hide_border=false&border_radius=15&include_all_commits=true&count_private=true&bg_color=ffffff&title_color=2563eb&text_color=374151&icon_color=3b82f6&border_color=d1d5db" height="180em"/> | <img src="https://streak-stats.demolab.com?user=rayaantasnim&theme=default&hide_border=false&border_radius=15&background=FFFFFF&ring=3B82F6&fire=2563EB&currStreakLabel=2563EB&sideNums=374151&currStreakNum=111827&dates=6B7280&sideLabels=374151&border=D1D5DB" height="180em"/> | <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=rayaantasnim&layout=compact&hide_border=false&border_radius=15&bg_color=ffffff&title_color=2563eb&text_color=374151&border_color=d1d5db&card_width=320" height="180em"/> |
 
 <br>
 
