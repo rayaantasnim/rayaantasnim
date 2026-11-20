@@ -438,6 +438,25 @@ Serves as a professional identity hub.
 <br>
 
 
+<br>
+
+# 🚀 Featured Repositories
+
+<p align="center">
+  <img src="https://github-stats-extended.vercel.app/api/pin?username=rayaantasnim&repo=rayaantasnim%2Frayaantasnim&disable_animations=false&theme=shadow_red" width="32%" />
+  <img src="https://github-stats-extended.vercel.app/api/pin?username=rayaantasnim&repo=rayaantasnim%2FOlympiad-Edge-Router&disable_animations=false&theme=ambient_gradient" width="32%" />
+  <img src="https://github-stats-extended.vercel.app/api/pin?username=rayaantasnim&repo=Arithmo-Edge%2FBluePrint&disable_animations=false&theme=radical" width="32%" />
+</p>
+
+<p align="center">
+  <img src="https://github-stats-extended.vercel.app/api/pin?username=rayaantasnim&repo=rayaantasnim%2FPrime-Factorization-Web&show_owner=true&description_lines_count=3&disable_animations=false&theme=shadow_red" width="32%" />
+  <img src="https://github-stats-extended.vercel.app/api/pin?username=rayaantasnim&repo=rayaantasnim%2FContinnum-Arcadia-Amethyst&description_lines_count=3&disable_animations=false&theme=swift" width="32%" />
+  <img src="https://github-stats-extended.vercel.app/api/pin?username=rayaantasnim&repo=rayaantasnim%2FArithmatic-Complex-Mathematical-Python&theme=shadow_red" width="32%" />
+</p>
+
+<br>
+
+
 ### 📊 GitHub Statistics
 
 <p align="center">
