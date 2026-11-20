@@ -425,11 +425,18 @@ Serves as a professional identity hub.
 
 # 📊 GitHub Stats
 
-| | | |
-|:-:|:-:|:-:|
-| <img src="https://github-stats-extended.vercel.app/api?username=rayaantasnim&custom_title=Rayaan%20Tasnim%3A%20Inspiring%20Trust%20Through%20Innovation&show=reviews%2Cdiscussions_started%2Cdiscussions_answered%2Cprs_merged%2Cprs_merged_percentage%2Cprs_commented%2Cprs_reviewed%2Cissues_commented%2Ccontributions%2Call_time_contribs&show_icons=true&include_all_commits=true&theme=buefy" height="180em"/> | <img src="https://streak-stats.demolab.com?user=rayaantasnim&theme=default&hide_border=false&border_radius=15&background=FFFFFF&ring=3B82F6&fire=2563EB&currStreakLabel=2563EB&sideNums=374151&currStreakNum=111827&dates=6B7280&sideLabels=374151&border=D1D5DB" height="180em"/> | <img src="https://github-stats-extended.vercel.app/api/top-langs?username=rayaantasnim&layout=pie&langs_count=10&theme=buefy" height="180em"/> |
+<p align="center">
+  <img src="https://github-stats-extended.vercel.app/api?username=rayaantasnim&custom_title=Rayaan%20Tasnim%3A%20Inspiring%20Trust%20Through%20Innovation&show=reviews%2Cdiscussions_started%2Cdiscussions_answered%2Cprs_merged%2Cprs_merged_percentage%2Cprs_commented%2Cprs_reviewed%2Cissues_commented%2Ccontributions%2Call_time_contribs&show_icons=true&include_all_commits=true&theme=buefy" width="42%" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=rayaantasnim&layout=pie&langs_count=10&theme=buefy" width="26%" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=rayaantasnim&theme=default&hide_border=false&border_radius=15&background=FFFFFF&ring=3B82F6&fire=2563EB&currStreakLabel=2563EB&sideNums=374151&currStreakNum=111827&dates=6B7280&sideLabels=374151&border=D1D5DB" width="72%" />
+</p>
 
 <br>
+
 
 ### 📊 GitHub Statistics
 
