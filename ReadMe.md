@@ -31,9 +31,31 @@ He is known for architecting **web applications**, **math-training platforms** l
 
 To blend **science, creativity, and faith** into innovations that inspire humanity.
 
----
+---<br><br>
 
 ## 🔑 Platforms & Ecosystems
+
+<br>
+
+### ⚡ Arithmo Edge
+
+![Arithmo Edge Badge](https://img.shields.io/badge/Arithmo%20Edge-Real--Time%20ELO%20Mathematics-cyan?style=flat-square&logo=academia)
+
+A **globally federated competitive mathematics ecosystem** engineered to bring real-time ratings, live matchmaking, and verifiable Olympiad competition to every student on Earth.
+
+- Real-time **ELO-rated matchmaking** across 5 Core Arenas
+- **1v1 Bullet Blitz** mathematical duels with sub-second pairing
+- Live **Codeforces-style rated contests** and ranking progression
+- Post-contest **peer-hacking phases** for solution validation
+- Deterministic **symbolic verification** powered by 42 hybrid AI engines
+- Interconnected infrastructure spanning **14 federated portals**
+
+For decades, competitive programming flourished through instant ratings, global leaderboards, and live competitive ecosystems, while competitive mathematics remained constrained by static forums and prohibitively expensive preparatory programs. Arithmo Edge eliminates this asymmetry by delivering modern competitive infrastructure purpose-built for Olympiad mathematics.
+
+Designed as a **zero-to-low-cost global platform**, it transforms elite mathematical training into an accessible, transparent, and  discipline, empowering learners through real-time competition, objective skill assessment, and globally recognized mathematical credentials.
+
+--- 
+<br>
 
 ### 🏔️ IDAI Universe
 
@@ -71,26 +93,6 @@ A **privacy-first training laboratory** for competitive mathematics.
 
 ---
 
-<br>
-
-### ⚡ Arithmo Edge
-
-![Arithmo Edge Badge](https://img.shields.io/badge/Arithmo%20Edge-Real--Time%20ELO%20Mathematics-cyan?style=flat-square&logo=academia)
-
-A **globally federated competitive mathematics ecosystem** engineered to bring real-time ratings, live matchmaking, and verifiable Olympiad competition to every student on Earth.
-
-- Real-time **ELO-rated matchmaking** across 5 Core Arenas
-- **1v1 Bullet Blitz** mathematical duels with sub-second pairing
-- Live **Codeforces-style rated contests** and ranking progression
-- Post-contest **peer-hacking phases** for solution validation
-- Deterministic **symbolic verification** powered by 42 hybrid AI engines
-- Interconnected infrastructure spanning **14 federated portals**
-
-For decades, competitive programming flourished through instant ratings, global leaderboards, and live competitive ecosystems, while competitive mathematics remained constrained by static forums and prohibitively expensive preparatory programs. Arithmo Edge eliminates this asymmetry by delivering modern competitive infrastructure purpose-built for Olympiad mathematics.
-
-Designed as a **zero-to-low-cost global platform**, it transforms elite mathematical training into an accessible, transparent, and  discipline, empowering learners through real-time competition, objective skill assessment, and globally recognized mathematical credentials.
-
----
 
 ## 🏆 Vision
 
@@ -105,6 +107,8 @@ To **engineer sovereign ecosystems** where **mathematics, programming, and innov
 💻 I am currently building Olympiad Edge 🚀, an open-source student platform designed to train aspiring competitive programmers in elite algorithmic problem-solving.<br><br>
 
 🏆 As part of this ecosystem of Olympiad Edge, I engineered PrimeFactor.app 🧮, a high-velocity, zero-server-overhead mathematical wing built to test cognitive speed using advanced deterministic algorithms.<br><br>
+
+👑  As part of the Olympiad Edge ecosystem, I engineered Arithmo Edge ⚡, a real-time mathematical colosseum where Olympians forge reputation through live ELO battles, AI-verified contests, and globally ranked competition at unprecedented scale.<br><br>
 
 👯 I'm looking to collaborate on open-source AI tools, web canvas architectures, and innovative web apps.<br><br>
 
